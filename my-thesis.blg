@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[1] Config.pm:307> INFO - Logfile is 'my-thesis.blg'
+[103] biber:322> INFO - === Tue Oct  4, 2022, 09:25:16
+[138] Biber.pm:415> INFO - Reading 'my-thesis.bcf'
+[227] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[248] Biber.pm:4256> INFO - Processing section 0
+[249] Utils.pm:75> INFO - Globbing data source 'bib-refs.bib'
+[249] Utils.pm:91> INFO - Globbed data source 'bib-refs.bib' to bib-refs.bib
+[262] Biber.pm:4455> INFO - Looking for bibtex format file 'bib-refs.bib' for section 0
+[263] bibtex.pm:1653> INFO - LaTeX decoding ...
+[270] bibtex.pm:1471> INFO - Found BibTeX data source 'bib-refs.bib'
+[362] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[363] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[363] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[363] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[389] Biber.pm:4084> INFO - Sorting list 'nty/global/518ED29525738CEBDAC49C49E60EA9D3/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[389] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[401] bbl.pm:652> INFO - Writing 'my-thesis.bbl' with encoding 'UTF-8'
+[415] bbl.pm:755> INFO - Output to my-thesis.bbl
