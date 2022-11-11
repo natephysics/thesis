@@ -3,21 +3,56 @@
 \chapter{Code Design}
 \label{sec:code:model}
 
-Machine learning models are algorithms that use data and statistical operations to optimize the weights that compose the model.
+Machine learning (ML) models are algorithms that use data and statistical operations to optimize the weights that compose the model.
 There are two broad catagories of ML models, supervised and unsupervised.
 Supervised models are ones which use labeled data, or data which the expected output of the model is known in advance.
 Unsupervised models are models for which a pattern is learned from the data directly.
-
+The model use for this project is a supervised ML model because we know what the expected inputs and outputs should be and can produce labels for both.
 
 The primary input for the model will be thermal images taken from the internal cameras at W7X.
 Since the thermal camera data is sparse, with most of the pixels for any given shot containing zeros or noise, a convolutional neural network with that is optimized for sparse data would be ideal.
-With that in mind I tested several standard network architectures: ResNet with skip connections, VGG, and Alex-net.
-Due to the number of weights required to use VGG the input resolution of the images to be reduced to fit the model into the available vRam for training.
-The ResNet architecture was very promising and has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem.
+
+
+
+Convolutional neural networks use two dimensional convolutions applied to the inputs to generate new features (see Fig. \ref{fig:code:2DConv}).
+These convolutions are stacked, being applied to the same input to produce multiple outputs which are concatenated along the z-axis.
+Typically, strides (the number of pixels skipped over when translating the kernel) and padding (adding pixels around the edge of the image) allow convolutions to change the output x and y dimensions.
+So as more layers of convolutions are successively applied, the outputs of each layer grow in z-height, and shrink in x and y.
+The final output of the convolutional network is then passed to a fully connected network.
+
+
+\begin{figure}[htb]
+    \includegraphics[width=\textwidth]{images/2d-Conv.png}
+    \caption{Example of a single 3x3 convolution operation. The source image is convolved with a 3x3 kernel. The kernel's weights are determined using backpropagation. [cite source]}
+    \label{fig:code:2DConv}
+\end{figure}
+
+
+
+\label{sec:code:inceptnet}
+The inceptnet architecture [cite https://arxiv.org/abs/1409.4842] has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem.
+In initial tests it was was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network.
+Incept net uses a series of sub-networks, known as inception modules (see Fig \ref{fig:code:inceptmodule}).
+Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path.
+To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions.
+The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together.
+The idea behind having multiple convolution sizes is that some features of the input might be lost if only size of kernel is applied.
+
+\begin{figure}[htb]
+    \includegraphics[width=\textwidth]{images/incept-simple.png}
+    \caption{A diagram of the inception module. The inputs from the prior layer are fed into 4 paths, applying 1x1, 3x3, 5x5, convolutions with the final layer being 3x3 max pooling. The outputs of each layer are concatenated and passed to the next incept module. The number of 1x1, 3x3, and 5x5 convolutions per incept module can be adjusted.}
+    \label{fig:code:inceptmodule}
+\end{figure}
+
+Incept modules also have two major advantages over classic deep convolutional networks, they require far fewer parameters and achieve better performance than their classic convolutional counterparts.
+For example, using a 5x5 convolution to produce the same number of output channels as a incept module requires over 7 times the numbers of parameters and over 7 times the number of floating point operations.
+This means that
+
+
 
 Initially, the labels for the data set were not produce, since the simulations necessary to produce them take a great deal of time, simplified versions of the labels which just took into account the ratio of the ratio of the [Check with Andrea].
 We can see in Eq. [Insert ref to Iota eq] that the first order term is the magnetic field produce by the coils so this will act as a good approximation.
-The ResNet architecture had three promising advantages over the other options.
+The inceptnet architecture had three promising advantages over the other options.
 The model size was small enough to fit entirely in the v-Ram of the available GPUs, the initial testing of the ResNet showing good success with the proxy for iota with limited tuning of the network, and the prior success with the architecture by Böckenhoff.
 Because of these reasons it was the network selected to be used.
 
@@ -40,6 +75,7 @@ Once the broad architecture was selected the next step is to tune the model.
 Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case.
 Tuning was done systematically with Optuna and results were recorded and compared using Tensorboard and MLFlow.
 You can see from the table [Insert graph] the results of tuning the hyperparameter for the optimization step size $\alpha$.
+
 
 
 
