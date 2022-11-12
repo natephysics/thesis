@@ -27,12 +27,11 @@ The final output of the convolutional network is then passed to a fully connecte
     \label{fig:code:2DConv}
 \end{figure}
 
-
-
 \label{sec:code:inceptnet}
+
 The inceptnet architecture [cite https://arxiv.org/abs/1409.4842] has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem.
 In initial tests it was was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network.
-Incept net uses a series of sub-networks, known as inception modules (see Fig \ref{fig:code:inceptmodule}).
+Incept net uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}).
 Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path.
 To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions.
 The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together.
@@ -44,9 +43,40 @@ The idea behind having multiple convolution sizes is that some features of the i
     \label{fig:code:inceptmodule}
 \end{figure}
 
-Incept modules also have two major advantages over classic deep convolutional networks, they require far fewer parameters and achieve better performance than their classic convolutional counterparts.
-For example, using a 5x5 convolution to produce the same number of output channels as a incept module requires over 7 times the numbers of parameters and over 7 times the number of floating point operations.
-This means that
+Each of the paths in the four branches of the inception module play a different role.
+The 1x1 filter doesn't take into account any patterns in the inputs height and width, but it does work across channels (depth) of the image.
+This acts to reduce the dimension of the input while connecting the values from the other channels of the input.
+Lin et. al in their 2014 paper [cite https://arxiv.org/pdf/1312.4400.pdf] referred to the 1x1 convolution as a "network in a network."
+The 1x1 convolution can also be used to reduce the number of channels as the output of the filter will be 1x1x$n$, where $n$ is the number of 1x1 filters being applied.
+This is why each branch has a 1x1 convolution.
+The 1x1 convolutions marked in yellow in fig. \ref{fig:code:inceptmodule} are designed to reduce the number of channels input to the higher computational cost which dramatically reduces the number of weights needed for a module.
+
+The 3x3 and 5x5 convolutions look at spacial patterns across the width, height, and depth of the input.
+In this way they are actually a 3-dimensional convolution, but most convolutions are referred to by their 2 dimensional cross-section.
+These two filters are typical optimized for finding features of the input at different scales.
+Prior to this multi-branch approach, machine learning scientists would hand select the ordering of the various convolution sizes to be applied in succession.
+By providing multiple paths and allowing the training process to determine which branches are necessary for a given step takes the human bias out of the training process.
+
+There are several other structures that appear in the inception module.
+One being a 3x3 max pooling layer, which is like a 3x3 convolution, but instead of taking the element-wise product with the filter, it returns the max pixel value over the region of the feature map that overlaps with the filter.
+Pooling layers are a method of downsampling the input while attempting to preserve the most relevant pixels and are a staple of most deep convolutional networks.
+The concatenation layer just concatenates the outputs from the various branches together.
+Each branch has padding so that the height and width channels are aligned to make concatenation simple.
+
+Lastly, there are batch normalization layers after every operation on each brach of the inception module.
+Batch normalization is powerful tool in any deep learning model.
+It has been show by S. Ioffe and C. Szegedy in their 2015 paper [cite https://arxiv.org/pdf/1502.03167.pdf] that batch normalization largest solves the issue of internal covariate shift, where layers in the network shift the input distribution to the next layer.
+Since the inputs of any layer in the network are affected by the weights of every prior layer, small changes in the distribution get amplified as they propagate throughout the network.
+To address this during training batches of data are normalized, transforming the neurons output using the first and second statistical moments (mean and standard deviation) across the batch.
+Two additional trainable parameters, $\gamma$ and $\beta$ are applied after normalization to specify the output distribution, so each layer can achieve a unique output distribution based on the optimal one for the next operation or layer.
+
+Incept modules also have two major advantages over classic deep convolutional networks, they require far fewer parameters, which reduced the overall memory footprint of the model and far fewer floating point operations than prior convolutional modules.
+For example, using a 5x5 convolution to produce the same number of output channels as a incept module requires over 7 times the number of model parameters and floating point operations compared to the incept module.
+However, despite having significantly fewer model parameters, when the inceptnet was release, it was the state of the art architecture.
+Inceptnet outperformed models with the higher parameter count 5x5 and 3x3 modules.
+
+The inception modules are stacked repeatedly with
+
 
 
 
