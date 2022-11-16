@@ -5,11 +5,11 @@
 
 Machine learning (ML) models are algorithms that use data and statistical operations to optimize the weights that compose the model.
 There are two broad catagories of ML models, supervised and unsupervised.
-Supervised models are ones which use labeled data, or data which the expected output of the model is known in advance.
+Supervised models are ones which use labeled data, or data for which the expected output of the model is known in advance.
 Unsupervised models are models for which a pattern is learned from the data directly.
 The model use for this project is a supervised ML model because we know what the expected inputs and outputs should be and can produce labels for both.
 
-The primary input for the model will be thermal images taken from the internal cameras at W7X.
+The primary input for the model will be thermal images taken from the infrared cameras at W-7X.
 Since the thermal camera data is sparse, with most of the pixels for any given shot containing zeros or noise, a convolutional neural network with that is optimized for sparse data would be ideal.
 
 Convolutional neural networks use two dimensional convolutions applied to the inputs to generate new features (see Fig. \ref{fig:code:2DConv}).
