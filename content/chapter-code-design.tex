@@ -74,15 +74,29 @@ However, despite having significantly fewer model parameters, when the inceptnet
 Inceptnet outperformed models with the higher parameter count 5x5 and 3x3 modules.
 
 The inception modules are stacked repeatedly (see fig. /ref{}), varying the number of filters in each brach of the incept modules in each layer of modules.
+Eight total inception modules were used in the network with an input and output network.
+The input network is a 2D convolution used to scale up the number of channels.
+The output network flattens the output and passes it though a 128 neuron fully connected layer before reducing it to the output dimension of the network.
+While this was a reduction in the original scale of the Inceptnet design because the input images are higher resolution there are far more weights per step.
+For example, with an image resolution of 80\% of the original image size (260x1040 pixels) and a batch size of 10, the amount of ram needed to store the weights for the forward and back propagation step alone is 21.4 GB, which exceeds the video memory of all but the highest end consumer graphics cards.
+Since one of the questions being addressed by this thesis will be the impact of scaling the input image resolution on the accuracy, it is important to design a model that can will run with the hardware available.
+
+\label{sec:code:hyperparameters}
+
+Once the broad architecture was selected the next step is to tune the model.
+Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case.
+Tuning was done systematically with Optuna and results were recorded and compared using Tensorboard and MLFlow.
+You can see from the table [Insert graph] the results of tuning the hyperparameter for the optimization step size $\alpha$.
 
 
+The labels of the data set are the expected values the network will output given a specific input.
+$\iota$, the rotational transform or the ratio of poloidal transits per toroidal turn of any field line on a flux surface, is the label used for training.
+Initially, the labels for the data set were not available since simulations were necessary to produce them and that process takes a great deal of time.
+Instead, simplified versions of the labels which just took into account the sum of $I_A$ and $I_B$, which provides a good first order approximation [inset /ref{} to eq].
+Naturally, this will neglect the plasmas induced changes to the magnetic field.
+Simulations using VMEC,  allowed for a more accurate approximation for $\iota$.
+However, the value of $\iota$ was taken at the edge of the plasma due to the time it would have taken to run the field line tracer, a simulation tool necessary for extending the results from VMEC to regions outside of the plasma, for 22,000+ simulation.
 
-
-Initially, the labels for the data set were not produce, since the simulations necessary to produce them take a great deal of time, simplified versions of the labels which just took into account the ratio of the ratio of the [Check with Andrea].
-We can see in Eq. [Insert ref to Iota eq] that the first order term is the magnetic field produce by the coils so this will act as a good approximation.
-The inceptnet architecture had three promising advantages over the other options.
-The model size was small enough to fit entirely in the v-Ram of the available GPUs, the initial testing of the ResNet showing good success with the proxy for iota with limited tuning of the network, and the prior success with the architecture by Böckenhoff.
-Because of these reasons it was the network selected to be used.
 
 
 \label{sec:code:philosophy}
@@ -97,12 +111,6 @@ The design philosophy was focused on making a project that could be quickly and 
 
 
 
-\label{sec:code:hyperparameters}
-
-Once the broad architecture was selected the next step is to tune the model.
-Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case.
-Tuning was done systematically with Optuna and results were recorded and compared using Tensorboard and MLFlow.
-You can see from the table [Insert graph] the results of tuning the hyperparameter for the optimization step size $\alpha$.
 
 
 
