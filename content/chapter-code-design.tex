@@ -1,6 +1,6 @@
 % !TEX root = ../my-thesis.tex
 %
-\chapter{Code Design}
+\chapter{Model Design}
 \label{sec:code:model}
 
 Machine learning (ML) models are algorithms that use data and statistical operations to optimize the weights that compose the model.
@@ -11,8 +11,6 @@ The model use for this project is a supervised ML model because we know what the
 
 The primary input for the model will be thermal images taken from the internal cameras at W7X.
 Since the thermal camera data is sparse, with most of the pixels for any given shot containing zeros or noise, a convolutional neural network with that is optimized for sparse data would be ideal.
-
-
 
 Convolutional neural networks use two dimensional convolutions applied to the inputs to generate new features (see Fig. \ref{fig:code:2DConv}).
 These convolutions are stacked, being applied to the same input to produce multiple outputs which are concatenated along the z-axis.
@@ -31,7 +29,7 @@ The final output of the convolutional network is then passed to a fully connecte
 
 The inceptnet architecture [cite https://arxiv.org/abs/1409.4842] has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem.
 In initial tests it was was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network.
-Incept net uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}).
+Inceptnet uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}).
 Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path.
 To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions.
 The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together.
@@ -75,7 +73,7 @@ For example, using a 5x5 convolution to produce the same number of output channe
 However, despite having significantly fewer model parameters, when the inceptnet was release, it was the state of the art architecture.
 Inceptnet outperformed models with the higher parameter count 5x5 and 3x3 modules.
 
-The inception modules are stacked repeatedly with
+The inception modules are stacked repeatedly (see fig. /ref{}), varying the number of filters in each brach of the incept modules in each layer of modules.
 
 
 
