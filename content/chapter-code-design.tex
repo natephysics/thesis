@@ -3,20 +3,11 @@
 \chapter{Model Design}
 \label{sec:code:model}
 
-Machine learning (ML) models are algorithms that use data and statistical operations to optimize the weights that compose the model.
-There are two broad catagories of ML models, supervised and unsupervised.
-Supervised models are ones which use labeled data, or data for which the expected output of the model is known in advance.
-Unsupervised models are models for which a pattern is learned from the data directly.
-The model use for this project is a supervised ML model because we know what the expected inputs and outputs should be and can produce labels for both.
+Machine learning (ML) models are algorithms that use data and statistical operations to optimize the weights that compose the model. There are two broad catagories of ML models, supervised and unsupervised. Supervised models are ones which use labeled data, or data for which the expected output of the model is known in advance. Unsupervised models are models for which a pattern is learned from the data directly. The model use for this project is a supervised ML model because we know what the expected inputs and outputs should be and can produce labels for both.
 
-The primary input for the model will be thermal images taken from the infrared cameras at W-7X.
-Since the thermal camera data is sparse, with most of the pixels for any given shot containing zeros or noise, a convolutional neural network with that is optimized for sparse data would be ideal.
+The primary input for the model will be thermal images taken from the infrared cameras at W-7X. Since the thermal camera data is sparse, with most of the pixels for any given shot containing zeros or noise, a convolutional neural network with that is optimized for sparse data would be ideal.
 
-Convolutional neural networks use two dimensional convolutions applied to the inputs to generate new features (see Fig. \ref{fig:code:2DConv}).
-These convolutions are stacked, being applied to the same input to produce multiple outputs which are concatenated along the z-axis.
-Typically, strides (the number of pixels skipped over when translating the kernel) and padding (adding pixels around the edge of the image) allow convolutions to change the output x and y dimensions.
-So as more layers of convolutions are successively applied, the outputs of each layer grow in z-height, and shrink in x and y.
-The final output of the convolutional network is then passed to a fully connected network.
+Convolutional neural networks use two dimensional convolutions applied to the inputs to generate new features (see Fig. \ref{fig:code:2DConv}). These convolutions are stacked, being applied to the same input to produce multiple outputs which are concatenated along the z-axis. Typically, strides (the number of pixels skipped over when translating the kernel) and padding (adding pixels around the edge of the image) allow convolutions to change the output x and y dimensions. So as more layers of convolutions are successively applied, the outputs of each layer grow in z-height, and shrink in x and y. The final output of the convolutional network is then passed to a fully connected network.
 
 
 \begin{figure}[htb]
@@ -27,13 +18,7 @@ The final output of the convolutional network is then passed to a fully connecte
 
 \label{sec:code:inceptnet}
 
-The inceptnet architecture [cite https://arxiv.org/abs/1409.4842] has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem.
-In initial tests it was was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network.
-Inceptnet uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}).
-Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path.
-To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions.
-The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together.
-The idea behind having multiple convolution sizes is that some features of the input might be lost if only size of kernel is applied.
+The inceptnet architecture [cite https://arxiv.org/abs/1409.4842] has been demonstrated by Böckenhoff [insert ref to Daniel's paper] to be effective on a simplified version of this problem. In initial tests it was was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network. Inceptnet uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}). Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path. To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions. The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together. The idea behind having multiple convolution sizes is that some features of the input might be lost if only size of kernel is applied.
 
 \begin{figure}[htb]
     \includegraphics[width=\textwidth]{images/incept-simple.png}
@@ -41,77 +26,29 @@ The idea behind having multiple convolution sizes is that some features of the i
     \label{fig:code:inceptmodule}
 \end{figure}
 
-Each of the paths in the four branches of the inception module play a different role.
-The 1x1 filter doesn't take into account any patterns in the inputs height and width, but it does work across channels (depth) of the image.
-This acts to reduce the dimension of the input while connecting the values from the other channels of the input.
-Lin et. al in their 2014 paper [cite https://arxiv.org/pdf/1312.4400.pdf] referred to the 1x1 convolution as a "network in a network."
-The 1x1 convolution can also be used to reduce the number of channels as the output of the filter will be 1x1x$n$, where $n$ is the number of 1x1 filters being applied.
-This is why each branch has a 1x1 convolution.
-The 1x1 convolutions marked in yellow in fig. \ref{fig:code:inceptmodule} are designed to reduce the number of channels input to the higher computational cost which dramatically reduces the number of weights needed for a module.
+Each of the paths in the four branches of the inception module play a different role. The 1x1 filter doesn't take into account any patterns in the inputs height and width, but it does work across channels (depth) of the image. This acts to reduce the dimension of the input while connecting the values from the other channels of the input. Lin et. al in their 2014 paper [cite https://arxiv.org/pdf/1312.4400.pdf] referred to the 1x1 convolution as a "network in a network." The 1x1 convolution can also be used to reduce the number of channels as the output of the filter will be 1x1x$n$, where $n$ is the number of 1x1 filters being applied. This is why each branch has a 1x1 convolution. The 1x1 convolutions marked in yellow in fig. \ref{fig:code:inceptmodule} are designed to reduce the number of channels input to the higher computational cost which dramatically reduces the number of weights needed for a module.
 
-The 3x3 and 5x5 convolutions look at spacial patterns across the width, height, and depth of the input.
-In this way they are actually a 3-dimensional convolution, but most convolutions are referred to by their 2 dimensional cross-section.
-These two filters are typical optimized for finding features of the input at different scales.
-Prior to this multi-branch approach, machine learning scientists would hand select the ordering of the various convolution sizes to be applied in succession.
-By providing multiple paths and allowing the training process to determine which branches are necessary for a given step takes the human bias out of the training process.
+The 3x3 and 5x5 convolutions look at spacial patterns across the width, height, and depth of the input. In this way they are actually a 3-dimensional convolution, but most convolutions are referred to by their 2 dimensional cross-section. These two filters are typical optimized for finding features of the input at different scales. Prior to this multi-branch approach, machine learning scientists would hand select the ordering of the various convolution sizes to be applied in succession. By providing multiple paths and allowing the training process to determine which branches are necessary for a given step takes the human bias out of the training process.
 
-There are several other structures that appear in the inception module.
-One being a 3x3 max pooling layer, which is like a 3x3 convolution, but instead of taking the element-wise product with the filter, it returns the max pixel value over the region of the feature map that overlaps with the filter.
-Pooling layers are a method of downsampling the input while attempting to preserve the most relevant pixels and are a staple of most deep convolutional networks.
-The concatenation layer just concatenates the outputs from the various branches together.
-Each branch has padding so that the height and width channels are aligned to make concatenation simple.
+There are several other structures that appear in the inception module. One being a 3x3 max pooling layer, which is like a 3x3 convolution, but instead of taking the element-wise product with the filter, it returns the max pixel value over the region of the feature map that overlaps with the filter. Pooling layers are a method of downsampling the input while attempting to preserve the most relevant pixels and are a staple of most deep convolutional networks. The concatenation layer just concatenates the outputs from the various branches together. Each branch has padding so that the height and width channels are aligned to make concatenation simple.
 
-Lastly, there are batch normalization layers after every operation on each brach of the inception module.
-Batch normalization is powerful tool in any deep learning model.
-It has been show by S. Ioffe and C. Szegedy in their 2015 paper [cite https://arxiv.org/pdf/1502.03167.pdf] that batch normalization largest solves the issue of internal covariate shift, where layers in the network shift the input distribution to the next layer.
-Since the inputs of any layer in the network are affected by the weights of every prior layer, small changes in the distribution get amplified as they propagate throughout the network.
-To address this during training batches of data are normalized, transforming the neurons output using the first and second statistical moments (mean and standard deviation) across the batch.
-Two additional trainable parameters, $\gamma$ and $\beta$ are applied after normalization to specify the output distribution, so each layer can achieve a unique output distribution based on the optimal one for the next operation or layer.
+Lastly, there are batch normalization layers after every operation on each brach of the inception module. Batch normalization is powerful tool in any deep learning model. It has been show by S. Ioffe and C. Szegedy in their 2015 paper [cite https://arxiv.org/pdf/1502.03167.pdf] that batch normalization largest solves the issue of internal covariate shift, where layers in the network shift the input distribution to the next layer. Since the inputs of any layer in the network are affected by the weights of every prior layer, small changes in the distribution get amplified as they propagate throughout the network. To address this during training batches of data are normalized, transforming the neurons output using the first and second statistical moments (mean and standard deviation) across the batch. Two additional trainable parameters, $\gamma$ and $\beta$ are applied after normalization to specify the output distribution, so each layer can achieve a unique output distribution based on the optimal one for the next operation or layer.
 
-Incept modules also have two major advantages over classic deep convolutional networks, they require far fewer parameters, which reduced the overall memory footprint of the model and far fewer floating point operations than prior convolutional modules.
-For example, using a 5x5 convolution to produce the same number of output channels as a incept module requires over 7 times the number of model parameters and floating point operations compared to the incept module.
-However, despite having significantly fewer model parameters, when the inceptnet was release, it was the state of the art architecture.
-Inceptnet outperformed models with the higher parameter count 5x5 and 3x3 modules.
+Incept modules also have two major advantages over classic deep convolutional networks, they require far fewer parameters, which reduced the overall memory footprint of the model and far fewer floating point operations than prior convolutional modules. For example, using a 5x5 convolution to produce the same number of output channels as a incept module requires over 7 times the number of model parameters and floating point operations compared to the incept module. However, despite having significantly fewer model parameters, when the inceptnet was release, it was the state of the art architecture. Inceptnet outperformed models with the higher parameter count 5x5 and 3x3 modules.
 
-The inception modules are stacked repeatedly (see fig. /ref{}), varying the number of filters in each brach of the incept modules in each layer of modules.
-Eight total inception modules were used in the network with an input and output network.
-The input network is a 2D convolution used to scale up the number of channels.
-The output network flattens the output and passes it though a 128 neuron fully connected layer before reducing it to the output dimension of the network.
-While this was a reduction in the original scale of the Inceptnet design because the input images are higher resolution there are far more weights per step.
-For example, with an image resolution of 80\% of the original image size (260x1040 pixels) and a batch size of 10, the amount of ram needed to store the weights for the forward and back propagation step alone is 21.4 GB, which exceeds the video memory of all but the highest end consumer graphics cards.
-Since one of the questions being addressed by this thesis will be the impact of scaling the input image resolution on the accuracy, it is important to design a model that can will run with the hardware available.
+The inception modules are stacked repeatedly (see fig. /ref{}), varying the number of filters in each brach of the incept modules in each layer of modules. Eight total inception modules were used in the network with an input and output network. The input network is a 2D convolution used to scale up the number of channels. The output network flattens the output and passes it though a 128 neuron fully connected layer before reducing it to the output dimension of the network. While this was a reduction in the original scale of the Inceptnet design because the input images are higher resolution there are far more weights per step. For example, with an image resolution of 80\% of the original image size (260x1040 pixels) and a batch size of 10, the amount of ram needed to store the weights for the forward and back propagation step alone is 21.4 GB, which exceeds the video memory of all but the highest end consumer graphics cards. Since one of the questions being addressed by this thesis will be the impact of scaling the input image resolution on the accuracy, it is important to design a model that can will run with the hardware available.
 
 \label{sec:code:hyperparameters}
 
-Once the broad architecture was selected the next step is to tune the model.
-Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case.
-Tuning was done systematically with Optuna and results were recorded and compared using Tensorboard and MLFlow.
-You can see from the table [Insert graph] the results of tuning the hyperparameter for the optimization step size $\alpha$.
-
+Once the broad architecture was selected the next step is to tune the model. Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case. Tuning was done systematically with Optuna and results were recorded and compared using Tensorboard and MLFlow. You can see from the table [Insert graph] the results of tuning the hyperparameter for the optimization step size $\alpha$.
 
 The labels of the data set are the expected values the network will output given a specific input.
-$\iota$, the rotational transform or the ratio of poloidal transits per toroidal turn of any field line on a flux surface, is the label used for training.
-Initially, the labels for the data set were not available since simulations were necessary to produce them and that process takes a great deal of time.
-Instead, simplified versions of the labels which just took into account the sum of $I_A$ and $I_B$, which provides a good first order approximation [inset /ref{} to eq].
-Naturally, this will neglect the plasmas induced changes to the magnetic field.
-Simulations using VMEC,  allowed for a more accurate approximation for $\iota$.
-However, the value of $\iota$ was taken at the edge of the plasma due to the time it would have taken to run the field line tracer, a simulation tool necessary for extending the results from VMEC to regions outside of the plasma, for 22,000+ simulation.
-
-
+$\iota$, the rotational transform or the ratio of poloidal transits per toroidal turn of any field line on a flux surface, is the label used for training. Initially, the labels for the data set were not available since simulations were necessary to produce them and that process takes a great deal of time.Instead, simplified versions of the labels which just took into account the sum of $I_A$ and $I_B$, which provides a good first order approximation [inset /ref{} to eq]. Naturally, this will neglect the plasmas induced changes to the magnetic field. Simulations using VMEC, a plasma physics simulation framework, allowed for a more accurate approximation for $\iota$. However, it is prohibitively computationally intensive to run 22,000+ simulations using the field line tracer, a simulation tool necessary for extending the results from VMEC to regions outside of the plasma. The compromise is use a value if $\iota$ at the edge of the plasma, as the VMEC simulations can be made much faster alone.
 
 \label{sec:code:philosophy}
-The design philosophy of this project was important. The code was designed to be a complete package, to be easily used by fellow colleges, and to work with the state of the art tools available in the machine learning space.
-I went with the PyTorch framework, as many of my colleges used this as well, and the PyTorch Lightning package provided a powerful way to design an object-oriented package.
-For lower-level operations, like managing and recording the network configuration files, hyperparmeter searches, as well as structuring and analyzing results, the package Hydra, developed by Facebook, was used.
-Git was used for the version control system and DVC for data version control.
-This project was profiled and optimized with help from the PyTorch Lightning profiler.
-Code comments and documentation have been developed to help with quick adoption of the code for future use.
-Since future changes to the divertor surface will result in drastically different inputs to the network, the code was designed to automatically scale with the inputs.
-The design philosophy was focused on making a project that could be quickly and easily taken over by a future student and be powerful and flexible enough to work with expected changes in the future.
+The design philosophy of this project was important. The code was designed to be a complete package, to be easily used by fellow colleges, and to work with the state of the art tools available in the machine learning space. PyTorch was used at the primary framework, as many of members of the NEISS group used this as well. The PyTorch Lightning package provided a powerful way to design an object-oriented machine learning package. For lower-level operations, like managing and recording the network configuration files, hyperparmeter searches, as well as structuring and analyzing results, the package Hydra, developed by Facebook, was used. Git was used for the version control system and DVC for data version control. This project was profiled and optimized with help from the PyTorch Lightning profiler. Code comments and documentation have been developed to help with quick adoption of the code for future use.
 
-
-
-
+Since future changes to the divertor surface will result in drastically different inputs to the network, the code was designed to automatically scale with the inputs. The design philosophy was focused on making a project that could be quickly and easily taken over by a future student and be powerful and flexible enough to work with expected changes in the future. Even if the code is never used again it was still a valuable lesson in Python software development.
 
 
 
