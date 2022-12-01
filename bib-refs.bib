@@ -891,7 +891,7 @@
   abstract  = {It is demonstrated that artificial neural networks can be used to accurately and efficiently predict details of the magnetic topology at the plasma edge of the Wendelstein 7-X stellarator, based on simulated as well as measured heat load patterns onto plasma-facing components observed with infrared cameras. The connection between heat load patterns and the magnetic topology is a challenging regression problem, but one that suits artificial neural networks well. The use of a neural network makes it feasible to analyze and control the plasma exhaust in real-time, an important goal for Wendelstein 7-X, and for magnetic confinement fusion research in general.}
 }
 
-@article{Blatzheim_2019,
+@article{Blatzheim_2018,
   doi       = {10.1088/1741-4326/aaefaf},
   url       = {https://dx.doi.org/10.1088/1741-4326/aaefaf},
   year      = {2018},
@@ -906,8 +906,38 @@
   abstract  = {It has recently been shown that artificial neural networks (NNs) are able to establish nontrivial connections between the heat fluxes and the magnetic topology at the edge of Wendelstein 7-X (W7-X) (Böckenhoff et al 2018 Nucl. Fusion 58 056009), a first step in the direction of real-time control of heat fluxes in this device. We report here on progress on improving the performance of these NNs. A particular challenge here is that of generating a suitable training set for the NN. At present, experimental data are sparse, and simulated data, which are much more abundant, do not match the experimental data closely. It is found that the NNs show significantly improved performance on experimental data when experimental and simulated data are combined into a common training set, relative to training performed on only one of the two data sets. It is also found that appropriate pre-processing of the data improves performance. The architecture of the NN is also discussed. Overall a significant improvement in NN performance was seen—the normalized error reduced by more than a factor of three over the previous results. These results are important since heat flux control in a W7-X, as well as in a future fusion power plant, is likely a key issue, and must start with a very limited set of experimental training data, complemented by a larger, but not necessarily fully realistic, set of simulated data.}
 }
 
+@article{Böckenhoff_2019,
+  doi       = {10.1088/1741-4326/ab201e},
+  url       = {https://dx.doi.org/10.1088/1741-4326/ab201e},
+  year      = {2019},
+  month     = {jul},
+  publisher = {IOP Publishing},
+  volume    = {59},
+  number    = {8},
+  pages     = {086031},
+  author    = {Daniel Böckenhoff and Marko Blatzheim and the W7-X Team},
+  title     = {Application of improved analysis of convective heat loads on plasma facing components to Wendelstein 7-X},
+  journal   = {Nuclear Fusion},
+  abstract  = {Within this research we present a method to speed up the simulation of convective heat loads onto the plasma-facing components (PFCs) of the Wendelstein 7-X (W7-X) stellarator by a factor of approximately  with the same statistical precision as compared to the previous standard. The geometric models developed for this are also designed to unravel the complex 3D PFCs onto a 2D picture-like input format which gives access to the full set of image analysis tools like for example wavelet analysis or the applicability of convolutional neural network (CNN) architectures.
+               
+               The significant speedup of heat load calculation allows to simulate a massive data set of heat loads for approximately  magnetic configurations in edge rotational transform-radial axis shift space. To first order, plasma dynamic effects like toroidal current development as well as beta effects mainly influence this space which motivates the simulation in this scope.
+               
+               A criterion to evaluate the safety of a magnetic configuration with respect to the convective heat load onto the plasma facing components has been developed taking statistical fluctuations of the simulation into account. This criterion, applied to the introduced data set, provides a map relevant for discharge planning and machine safety.
+               
+               The methods and concepts introduced herein could contribute to the safety evaluation of magnetic confinement devices in general and are not specific for W7-X.}
+}
 
-
-
-
-
+@article{Blatzheim_2019,
+  doi       = {10.1088/1741-4326/ab4123},
+  url       = {https://dx.doi.org/10.1088/1741-4326/ab4123},
+  year      = {2019},
+  month     = {oct},
+  publisher = {IOP Publishing},
+  volume    = {59},
+  number    = {12},
+  pages     = {126029},
+  author    = {Marko Blatzheim and Daniel Böckenhoff and the Wendelstein 7-X Team},
+  title     = {Neural network regression approaches to reconstruct properties of magnetic configuration from Wendelstein 7-X modeled heat load patterns},
+  journal   = {Nuclear Fusion},
+  abstract  = {Convective heat loads onto the plasma facing components of magnetic confinement devices contain information about edge magnetic field properties which are not yet fully exploited. Machine learning approaches are a promising technique to automatically extract information about such properties from heat load images. In this study, we present the successful reconstruction of proxies for two independent, important edge magnetic field properties given simulated heat load images on the Wendelstein 7-X divertor target plates. Six different artificial neural network architectures from shallow and simple feed-forward fully-connected neural network to deep Inception ResNets with 24 223 to 804 804 free parameters are investigated. The relative reconstruction error is between  and  with calculation times on the order of milliseconds. A competing benchmark method without machine learning reaches slightly smaller errors but exceeds the calculation time by three orders of magnitude. The experiments demonstrate that machine learning is also a powerful tool in this particular field of nuclear fusion research and deep convolutional neural networks are identified as favorable algorithms for the stated problem. The findings of this paper build a basis for future real time discharge optimization and control by means of machine learning methods.}
+}

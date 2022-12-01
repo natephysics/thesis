@@ -3,86 +3,9 @@
 \chapter{Introduction}
 \label{sec:intro}
 
-\cleanchapterquote{You can’t do better design with a computer, but you can speed up your work enormously.}{Wim Crouwel}{(Graphic designer and typographer)}
+\section{Introduction}
+The Wendelstein 7-X (W7-X) is the most advanced stellarator of the HELIAS type. Its aim is to demonstrate the feasibility of steady-state operation of a plasma experiment and fusion reactor. It is a five-fold device with a quasi-isodynamic magnetic field created by 50 non-planar and 20 planar superconducting coils. Like it is predecessor, Wendelstein 7-AS, it uses the island-divertor concept for heat and particle exhaust. Due to the five-fold symmetry, 10 identical divertor units are arranged so that the divertor targets intersect the magnetic islands present in the edge magnetic field of W7-X and serve as a robust plasma-wall interface. The graphite divertor targets are designed to buffer a heat load of up to $10 \frac{MW}{m^2}$. Exceeding the heat load limit could result in severe damage to the divertor structure and prevent sustained operation of the device.
 
-Machine learning has launched a new era of real time datat analysis and control.
-As a result, it is now possible to do real time analysis and control that was unthinkable in the past.
-Problems where machine learning can really be taken advantage of are problems whose solutions are too complex for traditional algorithmic approaches on the timescale of the events.
+The dynamics of the particles in the plasma is determined by the magnetic field geometry. The quasi-isodynamic magnetic field geometry in W7-X is characterized by an edge rotational transform $\bar{\iota}$, that is the ratio of polodial turns per toroidal turn of a magnetic field line, which is close to 1 and results in five edge magnetic islands in the so-called standard magnetic field configuration. As the magnetic islands are used to create a plasma-wall interface in the island divertor, the heat and particle deposition pattern strongly depends on the position of the magnetic islands and therefore on the edge rotational transform.
 
-In the world of nuclear fusion we find many problems like this. Nuclear fusion is a complex atomic, theromodynamic, and electromagnetic problem.
-To achieve fusion it is neccery to overcome the nuclei's postive charge.
-
-\section{Postcards: My Address}
-\label{sec:intro:address}
-
-\textbf{Ricardo Langner} \\
-Alfred-Schrapel-Str. 7 \\
-01307 Dresden \\
-Germany
-
-
-
-\section{Motivation and Problem Statement}
-\label{sec:intro:motivation}
-
-\Blindtext[3][1] \cite{Jurgens:2000,Jurgens:1995,Miede:2011,Kohm:2011,Apple:keynote:2010,Apple:numbers:2010,Apple:pages:2010}
-
-\section{Results}
-\label{sec:intro:results}
-
-\Blindtext[1][2]
-
-\subsection{Some References}
-\label{sec:intro:results:refs}
-
-\cite{WEB:GNU:GPL:2010,WEB:Miede:2011}
-\Blindtext[1][1]
-
-\subsubsection{Methodology}
-\label{sec:intro:results:refs:method}
-
-\Blindtext[1][2]
-
-\paragraph{Strategy 1}
-\Blindtext[1][1]
-
-\begin{lstlisting}[language=Python, caption={This simple helloworld.py file prints Hello World.}\label{lst:pyhelloworld}]
-#!/usr/bin/env python
-print "Hello World"
-\end{lstlisting}
-
-\paragraph{Strategy 2}
-\Blindtext[1][1]
-
-\begin{lstlisting}[language=Python, caption={This is a bubble sort function.}\label{lst:pybubblesort}]
-#!/usr/bin/env python
-def bubble_sort(list):
-    for num in range(len(list)-1,0,-1):
-        for i in range(num):
-            if list[i]>list[i+1]:
-                tmp = list[i]
-                list[i] = list[i+1]
-                list[i+1] = tmp
-
-alist = [34,67,2,4,65,16,17,95,20,31]
-bubble_sort(list)
-print(list)
-\end{lstlisting}
-
-\section{Thesis Structure}
-\label{sec:intro:structure}
-
-\textbf{Chapter \ref{sec:related}} \\[0.2em]
-\blindtext
-
-\textbf{Chapter \ref{sec:system}} \\[0.2em]
-\blindtext
-
-\textbf{Chapter \ref{sec:concepts}} \\[0.2em]
-\blindtext
-
-\textbf{Chapter \ref{sec:concepts}} \\[0.2em]
-\blindtext
-
-\textbf{Chapter \ref{sec:conclusion}} \\[0.2em]
-\blindtext
+In order to avoid thermal overload of individual divertor targets, the magnetic field can be corrected using a set of trim and control magnetic coils. Real time control of the head load deposition pattern could be used to prevent the thermal overload. In order to provide real-time control control of the state of the plasmas variety of different plasma parameters would need to be provided in real-time, such as $\bar{\iota}$. However, $\bar{\iota}$ cannot be measured directly and simulating $\bar{\iota}$ is computationally expensive and cannot be done in real time. Inferring $\bar{\iota}$ from the heat load pattern is valuable to any such control scheme. In this thesis an approach to inferring $\bar{\iota}$ from the heat load pattern provided by the infrared camera is presented.
