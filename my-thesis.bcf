@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -2182,15 +2182,33 @@
     <bcf:datasource type="file" datatype="bibtex">bib-refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Jurgens:2000</bcf:citekey>
-    <bcf:citekey order="1">Jurgens:1995</bcf:citekey>
-    <bcf:citekey order="1">Miede:2011</bcf:citekey>
-    <bcf:citekey order="1">Kohm:2011</bcf:citekey>
-    <bcf:citekey order="1">Apple:keynote:2010</bcf:citekey>
-    <bcf:citekey order="1">Apple:numbers:2010</bcf:citekey>
-    <bcf:citekey order="1">Apple:pages:2010</bcf:citekey>
-    <bcf:citekey order="2">WEB:GNU:GPL:2010</bcf:citekey>
-    <bcf:citekey order="2">WEB:Miede:2011</bcf:citekey>
+    <bcf:citekey order="1">Helander2014</bcf:citekey>
+    <bcf:citekey order="2">Chen2012</bcf:citekey>
+    <bcf:citekey order="3">Moffatt1985</bcf:citekey>
+    <bcf:citekey order="4">Helander2014</bcf:citekey>
+    <bcf:citekey order="5">Helander2014</bcf:citekey>
+    <bcf:citekey order="6">Hirshman1983</bcf:citekey>
+    <bcf:citekey order="7">Hirshman1986</bcf:citekey>
+    <bcf:citekey order="8">Beidler1990</bcf:citekey>
+    <bcf:citekey order="9">Klinger2013</bcf:citekey>
+    <bcf:citekey order="10">Grieger1992</bcf:citekey>
+    <bcf:citekey order="11">Nuhrenberg1986</bcf:citekey>
+    <bcf:citekey order="12">Dinklage2018</bcf:citekey>
+    <bcf:citekey order="13">Rummel2012</bcf:citekey>
+    <bcf:citekey order="14">Suzuki2016</bcf:citekey>
+    <bcf:citekey order="15">Knieps2021</bcf:citekey>
+    <bcf:citekey order="16">Konig2002</bcf:citekey>
+    <bcf:citekey order="17">Renner2002</bcf:citekey>
+    <bcf:citekey order="18">Jakubowski2018</bcf:citekey>
+    <bcf:citekey order="19">Sieglin2015</bcf:citekey>
+    <bcf:citekey order="20">Jakubowski2018</bcf:citekey>
+    <bcf:citekey order="21">Jakubowski2018</bcf:citekey>
+    <bcf:citekey order="22">Niemann2020</bcf:citekey>
+    <bcf:citekey order="23">Böckenhoff_2018</bcf:citekey>
+    <bcf:citekey order="24">Böckenhoff_2018</bcf:citekey>
+    <bcf:citekey order="25">Blatzheim_2018</bcf:citekey>
+    <bcf:citekey order="26">Blatzheim_2019</bcf:citekey>
+    <bcf:citekey order="27">Blatzheim_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

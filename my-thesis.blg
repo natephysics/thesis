@@ -1,21 +1,61 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[1] Config.pm:307> INFO - Logfile is 'my-thesis.blg'
-[103] biber:322> INFO - === Tue Oct  4, 2022, 09:25:16
-[138] Biber.pm:415> INFO - Reading 'my-thesis.bcf'
-[227] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
-[248] Biber.pm:4256> INFO - Processing section 0
-[249] Utils.pm:75> INFO - Globbing data source 'bib-refs.bib'
-[249] Utils.pm:91> INFO - Globbed data source 'bib-refs.bib' to bib-refs.bib
-[262] Biber.pm:4455> INFO - Looking for bibtex format file 'bib-refs.bib' for section 0
-[263] bibtex.pm:1653> INFO - LaTeX decoding ...
-[270] bibtex.pm:1471> INFO - Found BibTeX data source 'bib-refs.bib'
-[362] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[363] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[363] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[363] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[389] Biber.pm:4084> INFO - Sorting list 'nty/global/518ED29525738CEBDAC49C49E60EA9D3/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[389] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[401] bbl.pm:652> INFO - Writing 'my-thesis.bbl' with encoding 'UTF-8'
-[415] bbl.pm:755> INFO - Output to my-thesis.bbl
+[0] Config.pm:307> INFO - Logfile is 'my-thesis.blg'
+[42] biber:322> INFO - === Fri Dec  9, 2022, 11:44:18
+[50] Biber.pm:415> INFO - Reading 'my-thesis.bcf'
+[89] Biber.pm:943> INFO - Found 21 citekeys in bib section 0
+[99] Biber.pm:4256> INFO - Processing section 0
+[99] Utils.pm:75> INFO - Globbing data source 'bib-refs.bib'
+[99] Utils.pm:91> INFO - Globbed data source 'bib-refs.bib' to bib-refs.bib
+[105] Biber.pm:4455> INFO - Looking for bibtex format file 'bib-refs.bib' for section 0
+[108] bibtex.pm:1653> INFO - LaTeX decoding ...
+[177] bibtex.pm:1471> INFO - Found BibTeX data source 'bib-refs.bib'
+[179] Utils.pm:293> WARN - Duplicate entry key: 'Gao2019' in file 'bib-refs.bib', skipping ...
+[179] Utils.pm:293> WARN - Duplicate entry key: 'Kremeyer2022' in file 'bib-refs.bib', skipping ...
+[280] Utils.pm:293> WARN - month field 'mar' in entry 'Böckenhoff_2018' is not an integer - this will probably not sort properly.
+[286] Utils.pm:293> WARN - month field 'dec' in entry 'Blatzheim_2018' is not an integer - this will probably not sort properly.
+[293] Utils.pm:293> WARN - month field 'oct' in entry 'Blatzheim_2019' is not an integer - this will probably not sort properly.
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 67, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 78, warning: undefined macro "vac"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 88, warning: undefined macro "jonm"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 98, warning: undefined macro "jinst"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 108, warning: undefined macro "fed"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 118, warning: undefined macro "rsi"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 128, warning: undefined macro "rsi"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 138, warning: undefined macro "jap"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 148, warning: undefined macro "jonm"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 159, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 170, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 181, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 192, warning: undefined macro "prl"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 204, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 215, warning: undefined macro "jonm"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 226, warning: undefined macro "nf"
+[296] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 237, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 248, warning: undefined macro "ieeetps"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 259, warning: undefined macro "jonm"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 270, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 281, warning: undefined macro "ppcf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 292, warning: undefined macro "ft"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 303, warning: undefined macro "ppcf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 314, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 326, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 338, warning: undefined macro "jonm"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 359, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 370, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 381, warning: undefined macro "ppcf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 392, warning: undefined macro "fed"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 403, warning: undefined macro "ppcf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 428, warning: undefined macro "pp"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 439, warning: undefined macro "nf"
+[297] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Q_Ez/bib-refs.bib_1683.utf8, line 556, warning: undefined macro "ft"
+[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[315] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[315] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[337] Biber.pm:4084> INFO - Sorting list 'nty/global/518ED29525738CEBDAC49C49E60EA9D3/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[337] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[352] bbl.pm:652> INFO - Writing 'my-thesis.bbl' with encoding 'UTF-8'
+[379] bbl.pm:755> INFO - Output to my-thesis.bbl
+[379] Biber.pm:128> INFO - WARNINGS: 39

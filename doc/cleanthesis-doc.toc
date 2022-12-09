@@ -1,0 +1,15 @@
+\babel@toc {american}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}About}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Donation}{1}{subsection.1.2}%
+\contentsline {paragraph}{\nonumberline Report on issues and missing features}{1}{section*.2}%
+\contentsline {paragraph}{\nonumberline Be Social}{1}{section*.3}%
+\contentsline {paragraph}{\nonumberline Send me a postcard}{1}{section*.4}%
+\contentsline {subsection}{\numberline {1.3}License}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Feedback}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Acknowledgments}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Prerequisites}{2}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Requirements}{2}{subsubsection.1.6.1}%
+\contentsline {section}{\numberline {2}User Guide}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Package Options}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Setup Your Bibliography}{4}{subsubsection.2.1.1}%

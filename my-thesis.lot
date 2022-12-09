@@ -11,12 +11,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces This table contains the input resolutions for 6 neural network architectures and their corresponding multiply–accumulate operations, which is a measure of the computational resources needed to train the network. To facilitate the larger input size the network adjusts the number of parameters, which results in an increase of computational resources to train.\relax }}{17}{table.caption.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces This is a caption text.\relax }}{37}{table.caption.14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces This is a caption text.\relax }}{38}{table.caption.15}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

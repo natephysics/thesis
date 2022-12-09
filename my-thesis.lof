@@ -5,15 +5,31 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Poincaré plots of the vacuum magnetic field in standard configuration for three different poloidal cross sections from \cite {Suzuki2016}. The islands intersecting the plasma facing components are shown in green, the target plates in pink.\relax }}{6}{figure.caption.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Figure example: \textit {(a)} example part one, \textit {(c)} example part two; \textit {(c)} example part three\relax }}{14}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Infrared image of one divertor module and the surrounding plasma facing components overlaid with a CAD model, from \cite {Jakubowski2018}\relax }}{7}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Another Figure example: \textit {(a)} example part one, \textit {(c)} example part two; \textit {(c)} example part three\relax }}{15}{figure.caption.8}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Coil diagram from one of the five W7X modules. The red coils are the non-planar coils. The blue coils are the two planar coils, $A$ and $B$. Taken from \ref {Böckenhoff_2018}\relax }}{7}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Left: Three-dimensional representation of heat flux on the surface of a limiter in W7X. Taken from \cite {Böckenhoff_2018} Right: \relax }}{8}{figure.caption.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The free parameters of the NN based on the input resolution, parameterization, and architecture.\relax }}{10}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of a single 3x3 convolution operation. The source image is convolved with a 3x3 kernel. The kernel's weights are determined using backpropagation. [cite source]\relax }}{12}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A diagram of the inception module. The inputs from the prior layer are fed into 4 paths, applying 1x1, 3x3, 5x5, convolutions with the final layer being 3x3 max pooling. The outputs of each layer are concatenated and passed to the next incept module. The number of 1x1, 3x3, and 5x5 convolutions per incept module can be adjusted.\relax }}{13}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $rmse$ after training the neural network on the inputs at a given resolution over number of pixels in the input image. The pixel values are a product of the input image from the thermal camera height and width values after being scaled.\relax }}{17}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $\bar {\iota }$ reconstruction with top two networks.\relax }}{18}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Kernel density estimate of L2 error from each trained neural network on the test datasets.\relax }}{20}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

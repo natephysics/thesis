@@ -19,496 +19,2154 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Apple:keynote:2010}{book}{}
+    \entry{Beidler1990}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=9f34ef64bd151ab4b47eb510e5209dbb}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={C.\bibnamedelimi Beidler},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Apple Inc.}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{namehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{fullhash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{bibnamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authorbibnamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authornamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authorfullhash}{9f34ef64bd151ab4b47eb510e5209dbb}
       \field{extraname}{1}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
+      \field{sortinit}{a}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Keynote '09 User Guide}
-      \field{year}{2010}
+      \field{title}{Physics and Engineering Design for Wendelstein VII-X}
+      \field{volume}{17}
+      \field{year}{1990}
     \endentry
-    \entry{Apple:numbers:2010}{book}{}
+    \entry{Konig2002}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=7e5508aaacb7a5044027c0f858319dc3}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={R.\bibnamedelimi König},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Apple Inc.}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{namehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{fullhash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{bibnamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authorbibnamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authornamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authorfullhash}{7e5508aaacb7a5044027c0f858319dc3}
       \field{extraname}{2}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
+      \field{sortinit}{a}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Numbers '09 User Guide}
-      \field{year}{2010}
+      \field{title}{The divertor program in stellarators}
+      \field{volume}{44}
+      \field{year}{2002}
     \endentry
-    \entry{Apple:pages:2010}{book}{}
+    \entry{Klinger2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=2d30ae13c9fe0be4a0f05b11a481c40c}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={T.\bibnamedelimi Klinger},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{fullhash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{bibnamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authorbibnamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authornamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authorfullhash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \field{extraname}{3}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards assembly completion and preparation of experimental campaigns of Wendelstein 7-X in the perspective of a path to a stellarator fusion power plant}
+      \field{volume}{88}
+      \field{year}{2013}
+    \endentry
+    \entry{Blatzheim_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=632da075e810972e21757008bf992b21}{%
+           family={Hölbe},
+           familyi={H\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod}}}%
+        {{hash=724a861065494faf2ccca5cd3e1a18be}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Sunn},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=dbb5ed78da870d9c4a30a6849bc0ae58}{%
+           family={Labahn},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=be04416d5467b6194dcce9816755a3ff}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima W7-X},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinithyphendelim X\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Apple Inc.}%
+        {IOP Publishing}%
       }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{extraname}{3}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{3}
+      \strng{namehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{fullhash}{cd38c67d61da588a80d1932ca7b3a4b1}
+      \strng{bibnamehash}{019288f73ff269486e8de5101eaee240}
+      \strng{authorbibnamehash}{019288f73ff269486e8de5101eaee240}
+      \strng{authornamehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{authorfullhash}{cd38c67d61da588a80d1932ca7b3a4b1}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Pages '09 User Guide}
-      \field{year}{2010}
-    \endentry
-    \entry{WEB:GNU:GPL:2010}{online}{}
-      \name{author}{1}{}{%
-        {{hash=99ee40c8e1bf42859100ff4d9e1f8dff}{%
-           family={{Free Software Foundation, Inc.}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{fullhash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{bibnamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authorbibnamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authornamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authorfullhash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \field{labelalpha}{Fre10}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{GNU General Public License}
-      \field{urlday}{27}
-      \field{urlmonth}{5}
-      \field{urlyear}{2011}
-      \field{year}{2010}
-      \field{urldateera}{ce}
+      \field{abstract}{It has recently been shown that artificial neural networks (NNs) are able to establish nontrivial connections between the heat fluxes and the magnetic topology at the edge of Wendelstein 7-X (W7-X) (Böckenhoff et al 2018 Nucl. Fusion 58 056009), a first step in the direction of real-time control of heat fluxes in this device. We report here on progress on improving the performance of these NNs. A particular challenge here is that of generating a suitable training set for the NN. At present, experimental data are sparse, and simulated data, which are much more abundant, do not match the experimental data closely. It is found that the NNs show significantly improved performance on experimental data when experimental and simulated data are combined into a common training set, relative to training performed on only one of the two data sets. It is also found that appropriate pre-processing of the data improves performance. The architecture of the NN is also discussed. Overall a significant improvement in NN performance was seen—the normalized error reduced by more than a factor of three over the previous results. These results are important since heat flux control in a W7-X, as well as in a future fusion power plant, is likely a key issue, and must start with a very limited set of experimental training data, complemented by a larger, but not necessarily fully realistic, set of simulated data.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Neural network performance enhancement for limited nuclear fusion experiment observations supported by simulations}
+      \field{volume}{59}
+      \field{year}{2018}
+      \field{pages}{016012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/aaefaf
+      \endverb
       \verb{urlraw}
-      \verb http://www.gnu.org/licenses/gpl.html
+      \verb https://dx.doi.org/10.1088/1741-4326/aaefaf
       \endverb
       \verb{url}
-      \verb http://www.gnu.org/licenses/gpl.html
+      \verb https://dx.doi.org/10.1088/1741-4326/aaefaf
       \endverb
     \endentry
-    \entry{Jurgens:2000}{book}{}
-      \name{author}{1}{}{%
-        {{hash=cf2a771fb8eedff01d8c70bd6be97dfd}{%
-           family={J{ü}rgens},
-           familyi={J\bibinitperiod},
-           given={Manuela},
+    \entry{Blatzheim_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
            giveni={M\bibinitperiod}}}%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=223319576238f1d25371824b68ba5c50}{%
+           family={Wendelstein\bibnamedelimb 7-X\bibnamedelima Team},
+           familyi={W\bibinitperiod\bibinitdelim 7\bibinithyphendelim X\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {FernUniversit{ä}t Gesamthochschule in Hagen}%
+        {IOP Publishing}%
       }
-      \strng{namehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{fullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{bibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorbibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authornamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorfullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \field{extraname}{1}
-      \field{labelalpha}{Jür00}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{LaTeX: eine Einf{ü}hrung und ein bisschen mehr}
-      \field{year}{2000}
-    \endentry
-    \entry{Jurgens:1995}{book}{}
-      \name{author}{1}{}{%
-        {{hash=cf2a771fb8eedff01d8c70bd6be97dfd}{%
-           family={J{ü}rgens},
-           familyi={J\bibinitperiod},
-           given={Manuela},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {FernUniversit{ä}t Gesamthochschule in Hagen}%
-      }
-      \strng{namehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{fullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{bibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorbibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authornamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorfullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
+      \strng{namehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{fullhash}{486582bfb7436586d249dd79c3af382c}
+      \strng{bibnamehash}{486582bfb7436586d249dd79c3af382c}
+      \strng{authorbibnamehash}{486582bfb7436586d249dd79c3af382c}
+      \strng{authornamehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{authorfullhash}{486582bfb7436586d249dd79c3af382c}
       \field{extraname}{2}
-      \field{labelalpha}{Jür95}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Convective heat loads onto the plasma facing components of magnetic confinement devices contain information about edge magnetic field properties which are not yet fully exploited. Machine learning approaches are a promising technique to automatically extract information about such properties from heat load images. In this study, we present the successful reconstruction of proxies for two independent, important edge magnetic field properties given simulated heat load images on the Wendelstein 7-X divertor target plates. Six different artificial neural network architectures from shallow and simple feed-forward fully-connected neural network to deep Inception ResNets with 24 223 to 804 804 free parameters are investigated. The relative reconstruction error is between and with calculation times on the order of milliseconds. A competing benchmark method without machine learning reaches slightly smaller errors but exceeds the calculation time by three orders of magnitude. The experiments demonstrate that machine learning is also a powerful tool in this particular field of nuclear fusion research and deep convolutional neural networks are identified as favorable algorithms for the stated problem. The findings of this paper build a basis for future real time discharge optimization and control by means of machine learning methods.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{10}
+      \field{number}{12}
+      \field{title}{Neural network regression approaches to reconstruct properties of magnetic configuration from Wendelstein 7-X modeled heat load patterns}
+      \field{volume}{59}
+      \field{year}{2019}
+      \field{pages}{126029}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/ab4123
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1741-4326/ab4123
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1741-4326/ab4123
+      \endverb
+    \endentry
+    \entry{Böckenhoff_2018}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=632da075e810972e21757008bf992b21}{%
+           family={Hölbe},
+           familyi={H\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod}}}%
+        {{hash=99807f8fc5f8a9fa45dcc6b72cc24d1f}{%
+           family={Niemann},
+           familyi={N\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=beaf12facc67691e5d936e832464d3b4}{%
+           family={Pisano},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dbb5ed78da870d9c4a30a6849bc0ae58}{%
+           family={Labahn},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=724a861065494faf2ccca5cd3e1a18be}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Sunn},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=be04416d5467b6194dcce9816755a3ff}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima W7-X},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{aba17fe158f6bed82adbbf842e64184b}
+      \strng{fullhash}{6818eee72fa96df3aba7757377cdba4a}
+      \strng{bibnamehash}{ec8962cd1abda5d2f850211f7683b66f}
+      \strng{authorbibnamehash}{ec8962cd1abda5d2f850211f7683b66f}
+      \strng{authornamehash}{aba17fe158f6bed82adbbf842e64184b}
+      \strng{authorfullhash}{6818eee72fa96df3aba7757377cdba4a}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is demonstrated that artificial neural networks can be used to accurately and efficiently predict details of the magnetic topology at the plasma edge of the Wendelstein 7-X stellarator, based on simulated as well as measured heat load patterns onto plasma-facing components observed with infrared cameras. The connection between heat load patterns and the magnetic topology is a challenging regression problem, but one that suits artificial neural networks well. The use of a neural network makes it feasible to analyze and control the plasma exhaust in real-time, an important goal for Wendelstein 7-X, and for magnetic confinement fusion research in general.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{Reconstruction of magnetic configurations in W7-X using artificial neural networks}
+      \field{volume}{58}
+      \field{year}{2018}
+      \field{pages}{056009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/aab22d
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1741-4326/aab22d
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1741-4326/aab22d
+      \endverb
+    \endentry
+    \entry{Chen2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a5b8b2e287cbcd596b1a245e40c69dd9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Francis\bibnamedelima F},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{fullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{bibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorbibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authornamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorfullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to plasma physics}
+      \field{year}{2012}
+    \endentry
+    \entry{Dinklage2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=14774e14bf0bc18195d2d0827c0ef0a0}{%
+           family={Dinklage},
+           familyi={D\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3527144ba8d59b25987e3d50bb90c53}{%
+           family={Beidler},
+           familyi={B\bibinitperiod},
+           given={CD},
+           giveni={C\bibinitperiod}}}%
+        {{hash=41228255efccefbe33dfcd52056091bb}{%
+           family={Helander},
+           familyi={H\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+        {{hash=14d7092edb0f0cb0ea2bfd8540c4f6f0}{%
+           family={Fuchert},
+           familyi={F\bibinitperiod},
+           given={Golo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5958107d956ff1ab6bdc8f155098c4a6}{%
+           family={Maa{ß}berg},
+           familyi={M\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=62d8c22ace03c3f28a04ce416be4bf2e}{%
+           family={Rahbarnia},
+           familyi={R\bibinitperiod},
+           given={Kian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e784469aaa949171c77cf10c03abf653}{%
+           family={Sunn\bibnamedelima Pedersen},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0a34f5f453f346b003323c64c5002266}{%
+           family={Turkin},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=021e6421201d25be9eee86d28937b13f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={RC},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4e58cb6bc1345ded9441978fc1058074}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{893a77b8dd9507da36c0b3143a6c2c23}
+      \strng{fullhash}{051d2accb532a8658d29802aad73b537}
+      \strng{bibnamehash}{debcc257fa0e1477212fc2ffa35a8ce8}
+      \strng{authorbibnamehash}{debcc257fa0e1477212fc2ffa35a8ce8}
+      \strng{authornamehash}{893a77b8dd9507da36c0b3143a6c2c23}
+      \strng{authorfullhash}{051d2accb532a8658d29802aad73b537}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{8}
+      \field{title}{Magnetic configuration effects on the Wendelstein 7-X stellarator}
+      \field{volume}{14}
+      \field{year}{2018}
+      \field{pages}{855\bibrangedash 860}
+      \range{pages}{6}
+    \endentry
+    \entry{Grieger1992}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=17a3537fae023a99c8251400b6cb686e}{%
+           family={Grieger},
+           familyi={G\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6f7895fc09c6511da6e61090c856c99e}{%
+           family={Lotz},
+           familyi={L\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c9c2c43f7d206b4c1da41b727bc15a22}{%
+           family={Merkel},
+           familyi={M\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=370ce58bde8832ceb42676f1fe05b5dd}{%
+           family={N{ü}hrenberg},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84375d485b65d217333413d22b9144ea}{%
+           family={Sapper},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23f444b4f239da889577dbbb05243bdb}{%
+           family={Strumberger},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0eb0b074c4990b17cb072f507d094da6}{%
+           family={Wobig},
+           familyi={W\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0fe43aebdf022f34b05d6d899103105d}{%
+           family={Burhenn},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3fdb7aa048bcc55d52723e1d2be1c560}{%
+           family={Erckmann},
+           familyi={E\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1ef5f1d4a5a2d3f4ceeec8643fba1d15}{%
+           family={Gasparino},
+           familyi={G\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{beb3e06dce24f1a9b26a5a308e0ef01d}
+      \strng{fullhash}{4e7cdd1dfa2efb2d4d8921f4fb6f7afc}
+      \strng{bibnamehash}{851e0d1bc05cf46f3c7e119be8f2cf20}
+      \strng{authorbibnamehash}{851e0d1bc05cf46f3c7e119be8f2cf20}
+      \strng{authornamehash}{beb3e06dce24f1a9b26a5a308e0ef01d}
+      \strng{authorfullhash}{4e7cdd1dfa2efb2d4d8921f4fb6f7afc}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids B: Plasma Physics}
+      \field{number}{7}
+      \field{title}{Physics optimization of stellarators}
+      \field{volume}{4}
+      \field{year}{1992}
+      \field{pages}{2081\bibrangedash 2091}
+      \range{pages}{11}
+    \endentry
+    \entry{Helander2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=41228255efccefbe33dfcd52056091bb}{%
+           family={Helander},
+           familyi={H\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{fullhash}{41228255efccefbe33dfcd52056091bb}
+      \strng{bibnamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authorbibnamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authornamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authorfullhash}{41228255efccefbe33dfcd52056091bb}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reports on Progress in Physics}
+      \field{number}{8}
+      \field{title}{Theory of plasma confinement in non-axisymmetric magnetic fields}
+      \field{volume}{77}
+      \field{year}{2014}
+      \field{pages}{087001}
+      \range{pages}{1}
+    \endentry
+    \entry{Hirshman1986}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=f5c4d0520c559230b03e522e13c802fc}{%
+           family={Hirshman},
+           familyi={H\bibinitperiod},
+           given={SP},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c9c2c43f7d206b4c1da41b727bc15a22}{%
+           family={Merkel},
+           familyi={M\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{fullhash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{bibnamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authorbibnamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authornamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authorfullhash}{f0f8dd9f77081955e280904d2457295c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{number}{1}
+      \field{title}{Three-dimensional free boundary calculations using a spectral Green's function method}
+      \field{volume}{43}
+      \field{year}{1986}
+      \field{pages}{143\bibrangedash 155}
+      \range{pages}{13}
+    \endentry
+    \entry{Hirshman1983}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f7150efa36853338886950a2db1f3eca}{%
+           family={Hirshman},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e35efae85406479849b004dc12135e3a}{%
+           family={Whitson},
+           familyi={W\bibinitperiod},
+           given={JC},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{fullhash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{bibnamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authorbibnamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authornamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authorfullhash}{67a95ed1a04c567425c704a4825b5551}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Physics of fluids}
+      \field{number}{12}
+      \field{title}{Steepest-descent moment method for three-dimensional magnetohydrodynamic equilibria}
+      \field{volume}{26}
+      \field{year}{1983}
+      \field{pages}{3553\bibrangedash 3568}
+      \range{pages}{16}
+    \endentry
+    \entry{Jakubowski2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=723a6575ef0af89501684412081ab6b5}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aeb44af3bf749b10bd413b9eec7652f9}{%
+           family={Drewelow},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2473a56b1fce5387f6ce948b111ef4be}{%
+           family={Fellinger},
+           familyi={F\bibinitperiod},
+           given={Joris},
+           giveni={J\bibinitperiod}}}%
+        {{hash=db7a6eb20589db33fde4585307a833c6}{%
+           family={Puig\bibnamedelima Sitjes},
+           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Aleix},
+           giveni={A\bibinitperiod}}}%
+        {{hash=93e40be52acb30291ebbda8519544750}{%
+           family={Wurden},
+           familyi={W\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9067f367a1d9e40c705af6393eb1014e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d13b644d8a85902f86a16c83519893bd}{%
+           family={Biedermann},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52a1f95bc5e6579aba8e6880d099ed60}{%
+           family={Cannas},
+           familyi={C\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=33125873bb869e7412d7506159629979}{%
+           family={Chauvin},
+           familyi={C\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c5dcebe22683603546969e54fcbb8727}{%
+           family={Gamradt},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{9834b84813cc024404152c39a6d82d8f}
+      \strng{fullhash}{1e90aba27cd674bb9f12390ad679e54e}
+      \strng{bibnamehash}{d950a6262b76f59765b9eb66ff98f25a}
+      \strng{authorbibnamehash}{d950a6262b76f59765b9eb66ff98f25a}
+      \strng{authornamehash}{9834b84813cc024404152c39a6d82d8f}
+      \strng{authorfullhash}{1e90aba27cd674bb9f12390ad679e54e}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{LaTeX: Fortgeschrittene Anwendungen}
-      \field{year}{1995}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{number}{10}
+      \field{title}{Infrared imaging systems for wall protection in the W7-X stellarator}
+      \field{volume}{89}
+      \field{year}{2018}
+      \field{pages}{10E116}
+      \range{pages}{-1}
     \endentry
-    \entry{Kohm:2011}{book}{}
-      \name{author}{2}{}{%
-        {{hash=ef6495d81d29fa9940e9d8ca208f831e}{%
-           family={Kohm},
+    \entry{Knieps2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=495dd8ef6066b0bab2191f625e11a9aa}{%
+           family={Knieps},
            familyi={K\bibinitperiod},
-           given={Markus},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49b6497e61b9b89cf46c0f5afc1caf2e}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f69c45bbd7261440e0a1d67b65a73268}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d892dae7e27112db5849b72b39dee5a}{%
+           family={Dinklage},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1af27b3e635e110c5c1f29c146a74e8d}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2292f0436a0fbdbe7741b70204c41689}{%
+           family={Rahbarnia},
+           familyi={R\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6ec856d3125e016c50be18fec19d1831}{%
+           family={Schilling},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=433e65075057ba32ab9f006a97b3496c}{%
+           family={Neuner},
+           familyi={N\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+        {{hash=0c023fb30680c48375d472d1eddc6923}{%
+           family={Thomsen},
+           familyi={T\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=904c8ec54f4bcd455b81d8869cc2aa60}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=3f334cedb5d4e8744d0e2b2f8be538fd}{%
-           family={Jens-Uwe-Morawski},
-           familyi={J\bibinithyphendelim U\bibinithyphendelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{fullhash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{bibnamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authorbibnamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authornamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authorfullhash}{73a192998d01cef0b6e42c98d2138f17}
-      \field{labelalpha}{KJ11}
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{255acdfdb2fb0c71b1ab3346491cc73d}
+      \strng{fullhash}{bda095d81a84b872d7f94c3717d664c9}
+      \strng{bibnamehash}{e9d5e84b444ef340473fe3409709e47f}
+      \strng{authorbibnamehash}{e9d5e84b444ef340473fe3409709e47f}
+      \strng{authornamehash}{255acdfdb2fb0c71b1ab3346491cc73d}
+      \strng{authorfullhash}{bda095d81a84b872d7f94c3717d664c9}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{KOMA-Script: Die Anleitung}
-      \field{year}{2011}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{2}
+      \field{title}{Plasma beta effects on the edge magnetic field structure and divertor heat loads in Wendelstein 7-X high-performance scenarios}
+      \field{volume}{62}
+      \field{year}{2021}
+      \field{pages}{026011}
+      \range{pages}{1}
     \endentry
-    \entry{WEB:Miede:2011}{online}{}
+    \entry{Moffatt1985}{article}{}
       \name{author}{1}{}{%
-        {{hash=649da87eb5b9d8d2ebdb1d3fbd59d0f1}{%
-           family={Miede},
+        {{hash=620879a8ac85084f3886e217ca5dff19}{%
+           family={Moffatt},
            familyi={M\bibinitperiod},
-           given={Andr{é}},
-           giveni={A\bibinitperiod}}}%
+           given={HK},
+           giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{fullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{bibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorbibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authornamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorfullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \field{extraname}{1}
-      \field{labelalpha}{Mie11}
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{fullhash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{bibnamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authorbibnamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authornamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authorfullhash}{620879a8ac85084f3886e217ca5dff19}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Classic Thesis Style by Andr{é} Miede}
-      \field{urlday}{27}
-      \field{urlmonth}{5}
-      \field{urlyear}{2011}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://www.miede.de/index.php?page=classicthesis
-      \endverb
-      \verb{url}
-      \verb http://www.miede.de/index.php?page=classicthesis
-      \endverb
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Magnetostatic equilibria and analogous Euler flows of arbitrarily complex topology. Part 1. Fundamentals}
+      \field{volume}{159}
+      \field{year}{1985}
+      \field{pages}{359\bibrangedash 378}
+      \range{pages}{20}
     \endentry
-    \entry{Miede:2011}{manual}{}
-      \name{author}{1}{}{%
-        {{hash=649da87eb5b9d8d2ebdb1d3fbd59d0f1}{%
-           family={Miede},
-           familyi={M\bibinitperiod},
-           given={Andr{é}},
-           giveni={A\bibinitperiod}}}%
+    \entry{Niemann2020}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=427abb0e39b47573016be6ca16fd245b}{%
+           family={Niemann},
+           familyi={N\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=146fdd5dfe781a0af9cf8878acab0578}{%
+           family={Drewelow},
+           familyi={D\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aeb9979634fffd95f49f3b3011ecf7ef}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={MW},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7047e542646bac8f14d676d9112dd171}{%
+           family={Sitjes},
+           familyi={S\bibinitperiod},
+           given={A\bibnamedelima Puig},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fdb2127bd67c12dd9793fcad07b8ac0f}{%
+           family={Cannas},
+           familyi={C\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4531bc045c08b9165192fd733acf2bd5}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=840690dfb7b67ccd9f4dc9d24de10ffb}{%
+           family={Pisano},
+           familyi={P\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d95c8cb45f9fc40fb42144fcc7781733}{%
+           family={K{ö}nig},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0fe43aebdf022f34b05d6d899103105d}{%
+           family={Burhenn},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=efea62e2ce600560127cf49934377dd1}{%
+           family={Hacker},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{fullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{bibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorbibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authornamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorfullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \field{extraname}{2}
-      \field{labelalpha}{Mie11}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extraalpha}{2}
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2332bc7e9013be856465e809794f393a}
+      \strng{fullhash}{c1746d6f900718151638bc9d79dd0129}
+      \strng{bibnamehash}{55a802bc9636619a847313b38cf8f738}
+      \strng{authorbibnamehash}{55a802bc9636619a847313b38cf8f738}
+      \strng{authornamehash}{2332bc7e9013be856465e809794f393a}
+      \strng{authorfullhash}{c1746d6f900718151638bc9d79dd0129}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Classic Thesis Style: An Homage to The Elements of Typographic Style}
-      \field{year}{2011}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{8}
+      \field{title}{Large wetted areas of divertor power loads at Wendelstein 7-X}
+      \field{volume}{60}
+      \field{year}{2020}
+      \field{pages}{084003}
+      \range{pages}{1}
+    \endentry
+    \entry{Nuhrenberg1986}{article}{}
+      \name{author}{2}{}{%
+        {{hash=370ce58bde8832ceb42676f1fe05b5dd}{%
+           family={N{ü}hrenberg},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc7f8ed55100ccd3ee81ad05284b88f1}{%
+           family={Zille},
+           familyi={Z\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{fullhash}{c6026f524cecad0983639d106c3960d0}
+      \strng{bibnamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authorbibnamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authornamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authorfullhash}{c6026f524cecad0983639d106c3960d0}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Letters A}
+      \field{number}{3}
+      \field{title}{Stable stellarators with medium $\beta$ and aspect ratio}
+      \field{volume}{114}
+      \field{year}{1986}
+      \field{pages}{129\bibrangedash 132}
+      \range{pages}{4}
+    \endentry
+    \entry{Renner2002}{article}{}
+      \name{author}{8}{}{%
+        {{hash=bac182cd38e0e1d1a2336e12a1f2976d}{%
+           family={Renner},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d2dbeafae9e99728fe9c6c8caf97d42b}{%
+           family={Boscary},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1d8b2e178291ce5d53077d33de81634c}{%
+           family={Greuner},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bfd74bbcf954b83f1b554ac4c361f120}{%
+           family={Grote},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=612161289e2b50f2aef98d79b3800b26}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={FW},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7ecb508c4fa7864b943e87680cf37c03}{%
+           family={Kisslinger},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23f444b4f239da889577dbbb05243bdb}{%
+           family={Strumberger},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c7b78a2983b04c44a59e5c4568bb521}{%
+           family={Mendelevitch},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{a1acc1c0342d3b5a749f3ff0ea693c65}
+      \strng{fullhash}{2e5498feff38a42edcd7697daeb0c4c1}
+      \strng{bibnamehash}{4cd56642cf57ed7dba45b2e6866724d0}
+      \strng{authorbibnamehash}{4cd56642cf57ed7dba45b2e6866724d0}
+      \strng{authornamehash}{a1acc1c0342d3b5a749f3ff0ea693c65}
+      \strng{authorfullhash}{2e5498feff38a42edcd7697daeb0c4c1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma physics and controlled fusion}
+      \field{number}{6}
+      \field{title}{Divertor concept for the W7-X stellarator and mode of operation}
+      \field{volume}{44}
+      \field{year}{2002}
+    \endentry
+    \entry{Rummel2012}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=bef0ac0a86ed4de063a343aa9f529ed9}{%
+           family={Rummel},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6c47d401e82e6455f43e308c84e22da0}{%
+           family={Ribe},
+           familyi={R\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6b2163417a03c4bced8833e36a195cc1}{%
+           family={Ehrke},
+           familyi={E\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=42f7ff6ea1400e12b4f5c4c26a307f32}{%
+           family={Rummel},
+           familyi={R\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1b0ea047d940542629b7cab0cd0b9497}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfe9148ce31bdcd2aa072a1f562ddf75}{%
+           family={Monnich},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cad41e99240f3ad2778b8bcc117726ea}{%
+           family={Buscher},
+           familyi={B\bibinitperiod},
+           given={Klaus-Peter},
+           giveni={K\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=bddbcadfec63ca6edb447ec0577ddb6a}{%
+           family={Fietz},
+           familyi={F\bibinitperiod},
+           given={Walter\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4a5e97f789909419f6f481b75ea4919c}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1c608b9a4854527ca482f3cda65d49b}{%
+           family={Neubauer},
+           familyi={N\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{40339592ba0bb81f408b88ba511b27ff}
+      \strng{fullhash}{90aa6bfc18b057fa3efa7e17adcbe1bc}
+      \strng{bibnamehash}{1fecb5172069225ab2beb9f687a12329}
+      \strng{authorbibnamehash}{1fecb5172069225ab2beb9f687a12329}
+      \strng{authornamehash}{40339592ba0bb81f408b88ba511b27ff}
+      \strng{authorfullhash}{90aa6bfc18b057fa3efa7e17adcbe1bc}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{number}{3}
+      \field{title}{The superconducting magnet system of the stellarator Wendelstein 7-X}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{pages}{769\bibrangedash 776}
+      \range{pages}{8}
+    \endentry
+    \entry{Sieglin2015}{article}{}
+      \name{author}{7}{}{%
+        {{hash=76075abe415ac7696cc7e1bfaf33b86b}{%
+           family={Sieglin},
+           familyi={S\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1710598d1fcadd46552b255253005cfd}{%
+           family={Faitsch},
+           familyi={F\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2aae893d6495e4ac552ab58b698d4133}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3fc2be7f11ace09a057fb17b34ba36d}{%
+           family={Brucker},
+           familyi={B\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48bd4c0d927a078662cad678f297f6e5}{%
+           family={Eich},
+           familyi={E\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f70e485d7ed83883ffcf9f3f171d01b4}{%
+           family={Kammerloher},
+           familyi={K\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a0fee3cb49a186aa6a9f29439534bf68}{%
+           family={Martinov},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{137f15a6c3ccc64bdf30fc10e3a932e2}
+      \strng{fullhash}{d62a67bcd312983b78ad4a41d4f9736b}
+      \strng{bibnamehash}{f4075e72ec619e282153ed56b8291ff5}
+      \strng{authorbibnamehash}{f4075e72ec619e282153ed56b8291ff5}
+      \strng{authornamehash}{137f15a6c3ccc64bdf30fc10e3a932e2}
+      \strng{authorfullhash}{d62a67bcd312983b78ad4a41d4f9736b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{number}{11}
+      \field{title}{Real time capable infrared thermography for ASDEX Upgrade}
+      \field{volume}{86}
+      \field{year}{2015}
+      \field{pages}{113502}
+      \range{pages}{1}
+    \endentry
+    \entry{Suzuki2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=49b6497e61b9b89cf46c0f5afc1caf2e}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f69c45bbd7261440e0a1d67b65a73268}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{fullhash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{bibnamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authorbibnamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authornamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authorfullhash}{01a6a6d73a082b8d16598347620db0cb}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{number}{6}
+      \field{title}{Impact of nonlinear 3D equilibrium response on edge topology and divertor heat load in Wendelstein 7-X}
+      \field{volume}{58}
+      \field{year}{2016}
+      \field{pages}{064004}
+      \range{pages}{1}
     \endentry
   \enddatalist
   \datalist[entry]{nty/global/518ED29525738CEBDAC49C49E60EA9D3/global/global}
-    \entry{Apple:keynote:2010}{book}{}
+    \entry{Beidler1990}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=9f34ef64bd151ab4b47eb510e5209dbb}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={C.\bibnamedelimi Beidler},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Apple Inc.}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{namehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{fullhash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{bibnamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authorbibnamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authornamehash}{9f34ef64bd151ab4b47eb510e5209dbb}
+      \strng{authorfullhash}{9f34ef64bd151ab4b47eb510e5209dbb}
       \field{extraname}{1}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
+      \field{sortinit}{a}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelprefix}{@}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Keynote '09 User Guide}
-      \field{year}{2010}
+      \field{title}{Physics and Engineering Design for Wendelstein VII-X}
+      \field{volume}{17}
+      \field{year}{1990}
     \endentry
-    \entry{Apple:numbers:2010}{book}{}
+    \entry{Konig2002}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=7e5508aaacb7a5044027c0f858319dc3}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={R.\bibnamedelimi König},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Apple Inc.}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
+      \strng{namehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{fullhash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{bibnamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authorbibnamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authornamehash}{7e5508aaacb7a5044027c0f858319dc3}
+      \strng{authorfullhash}{7e5508aaacb7a5044027c0f858319dc3}
       \field{extraname}{2}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
+      \field{sortinit}{a}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelprefix}{@}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Numbers '09 User Guide}
-      \field{year}{2010}
+      \field{title}{The divertor program in stellarators}
+      \field{volume}{44}
+      \field{year}{2002}
     \endentry
-    \entry{Apple:pages:2010}{book}{}
+    \entry{Klinger2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=2d30ae13c9fe0be4a0f05b11a481c40c}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={T.\bibnamedelimi Klinger},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{fullhash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{bibnamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authorbibnamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authornamehash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \strng{authorfullhash}{2d30ae13c9fe0be4a0f05b11a481c40c}
+      \field{extraname}{3}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards assembly completion and preparation of experimental campaigns of Wendelstein 7-X in the perspective of a path to a stellarator fusion power plant}
+      \field{volume}{88}
+      \field{year}{2013}
+    \endentry
+    \entry{Blatzheim_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=632da075e810972e21757008bf992b21}{%
+           family={Hölbe},
+           familyi={H\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod}}}%
+        {{hash=724a861065494faf2ccca5cd3e1a18be}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Sunn},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=dbb5ed78da870d9c4a30a6849bc0ae58}{%
+           family={Labahn},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=be04416d5467b6194dcce9816755a3ff}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima W7-X},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinithyphendelim X\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Apple Inc.}%
+        {IOP Publishing}%
       }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \field{extraname}{3}
-      \field{labelalpha}{App10}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelprefix}{@}
-      \field{extraalpha}{3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Pages '09 User Guide}
-      \field{year}{2010}
-    \endentry
-    \entry{WEB:GNU:GPL:2010}{online}{}
-      \name{author}{1}{}{%
-        {{hash=99ee40c8e1bf42859100ff4d9e1f8dff}{%
-           family={{Free Software Foundation, Inc.}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{fullhash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{bibnamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authorbibnamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authornamehash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \strng{authorfullhash}{99ee40c8e1bf42859100ff4d9e1f8dff}
-      \field{labelalpha}{Fre10}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \strng{namehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{fullhash}{cd38c67d61da588a80d1932ca7b3a4b1}
+      \strng{bibnamehash}{019288f73ff269486e8de5101eaee240}
+      \strng{authorbibnamehash}{019288f73ff269486e8de5101eaee240}
+      \strng{authornamehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{authorfullhash}{cd38c67d61da588a80d1932ca7b3a4b1}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelprefix}{@}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{GNU General Public License}
-      \field{urlday}{27}
-      \field{urlmonth}{5}
-      \field{urlyear}{2011}
-      \field{year}{2010}
-      \field{urldateera}{ce}
+      \field{abstract}{It has recently been shown that artificial neural networks (NNs) are able to establish nontrivial connections between the heat fluxes and the magnetic topology at the edge of Wendelstein 7-X (W7-X) (Böckenhoff et al 2018 Nucl. Fusion 58 056009), a first step in the direction of real-time control of heat fluxes in this device. We report here on progress on improving the performance of these NNs. A particular challenge here is that of generating a suitable training set for the NN. At present, experimental data are sparse, and simulated data, which are much more abundant, do not match the experimental data closely. It is found that the NNs show significantly improved performance on experimental data when experimental and simulated data are combined into a common training set, relative to training performed on only one of the two data sets. It is also found that appropriate pre-processing of the data improves performance. The architecture of the NN is also discussed. Overall a significant improvement in NN performance was seen—the normalized error reduced by more than a factor of three over the previous results. These results are important since heat flux control in a W7-X, as well as in a future fusion power plant, is likely a key issue, and must start with a very limited set of experimental training data, complemented by a larger, but not necessarily fully realistic, set of simulated data.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Neural network performance enhancement for limited nuclear fusion experiment observations supported by simulations}
+      \field{volume}{59}
+      \field{year}{2018}
+      \field{pages}{016012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/aaefaf
+      \endverb
       \verb{urlraw}
-      \verb http://www.gnu.org/licenses/gpl.html
+      \verb https://dx.doi.org/10.1088/1741-4326/aaefaf
       \endverb
       \verb{url}
-      \verb http://www.gnu.org/licenses/gpl.html
+      \verb https://dx.doi.org/10.1088/1741-4326/aaefaf
       \endverb
     \endentry
-    \entry{Jurgens:2000}{book}{}
-      \name{author}{1}{}{%
-        {{hash=cf2a771fb8eedff01d8c70bd6be97dfd}{%
-           family={J{ü}rgens},
-           familyi={J\bibinitperiod},
-           given={Manuela},
+    \entry{Blatzheim_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
            giveni={M\bibinitperiod}}}%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=223319576238f1d25371824b68ba5c50}{%
+           family={Wendelstein\bibnamedelimb 7-X\bibnamedelima Team},
+           familyi={W\bibinitperiod\bibinitdelim 7\bibinithyphendelim X\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {FernUniversit{ä}t Gesamthochschule in Hagen}%
+        {IOP Publishing}%
       }
-      \strng{namehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{fullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{bibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorbibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authornamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorfullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \field{extraname}{1}
-      \field{labelalpha}{Jür00}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{labelprefix}{@}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{LaTeX: eine Einf{ü}hrung und ein bisschen mehr}
-      \field{year}{2000}
-    \endentry
-    \entry{Jurgens:1995}{book}{}
-      \name{author}{1}{}{%
-        {{hash=cf2a771fb8eedff01d8c70bd6be97dfd}{%
-           family={J{ü}rgens},
-           familyi={J\bibinitperiod},
-           given={Manuela},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {FernUniversit{ä}t Gesamthochschule in Hagen}%
-      }
-      \strng{namehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{fullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{bibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorbibnamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authornamehash}{cf2a771fb8eedff01d8c70bd6be97dfd}
-      \strng{authorfullhash}{cf2a771fb8eedff01d8c70bd6be97dfd}
+      \strng{namehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{fullhash}{486582bfb7436586d249dd79c3af382c}
+      \strng{bibnamehash}{486582bfb7436586d249dd79c3af382c}
+      \strng{authorbibnamehash}{486582bfb7436586d249dd79c3af382c}
+      \strng{authornamehash}{4deddf29e2eed883e830dce18da8135c}
+      \strng{authorfullhash}{486582bfb7436586d249dd79c3af382c}
       \field{extraname}{2}
-      \field{labelalpha}{Jür95}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Convective heat loads onto the plasma facing components of magnetic confinement devices contain information about edge magnetic field properties which are not yet fully exploited. Machine learning approaches are a promising technique to automatically extract information about such properties from heat load images. In this study, we present the successful reconstruction of proxies for two independent, important edge magnetic field properties given simulated heat load images on the Wendelstein 7-X divertor target plates. Six different artificial neural network architectures from shallow and simple feed-forward fully-connected neural network to deep Inception ResNets with 24 223 to 804 804 free parameters are investigated. The relative reconstruction error is between and with calculation times on the order of milliseconds. A competing benchmark method without machine learning reaches slightly smaller errors but exceeds the calculation time by three orders of magnitude. The experiments demonstrate that machine learning is also a powerful tool in this particular field of nuclear fusion research and deep convolutional neural networks are identified as favorable algorithms for the stated problem. The findings of this paper build a basis for future real time discharge optimization and control by means of machine learning methods.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{10}
+      \field{number}{12}
+      \field{title}{Neural network regression approaches to reconstruct properties of magnetic configuration from Wendelstein 7-X modeled heat load patterns}
+      \field{volume}{59}
+      \field{year}{2019}
+      \field{pages}{126029}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/ab4123
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1741-4326/ab4123
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1741-4326/ab4123
+      \endverb
+    \endentry
+    \entry{Böckenhoff_2018}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e20ce770888b67018310d18254f2d98c}{%
+           family={Böckenhoff},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=22625e3dc50fde9b44116673f5300d34}{%
+           family={Blatzheim},
+           familyi={B\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=632da075e810972e21757008bf992b21}{%
+           family={Hölbe},
+           familyi={H\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod}}}%
+        {{hash=99807f8fc5f8a9fa45dcc6b72cc24d1f}{%
+           family={Niemann},
+           familyi={N\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=beaf12facc67691e5d936e832464d3b4}{%
+           family={Pisano},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dbb5ed78da870d9c4a30a6849bc0ae58}{%
+           family={Labahn},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=724a861065494faf2ccca5cd3e1a18be}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Sunn},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=be04416d5467b6194dcce9816755a3ff}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima W7-X},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{aba17fe158f6bed82adbbf842e64184b}
+      \strng{fullhash}{6818eee72fa96df3aba7757377cdba4a}
+      \strng{bibnamehash}{ec8962cd1abda5d2f850211f7683b66f}
+      \strng{authorbibnamehash}{ec8962cd1abda5d2f850211f7683b66f}
+      \strng{authornamehash}{aba17fe158f6bed82adbbf842e64184b}
+      \strng{authorfullhash}{6818eee72fa96df3aba7757377cdba4a}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is demonstrated that artificial neural networks can be used to accurately and efficiently predict details of the magnetic topology at the plasma edge of the Wendelstein 7-X stellarator, based on simulated as well as measured heat load patterns onto plasma-facing components observed with infrared cameras. The connection between heat load patterns and the magnetic topology is a challenging regression problem, but one that suits artificial neural networks well. The use of a neural network makes it feasible to analyze and control the plasma exhaust in real-time, an important goal for Wendelstein 7-X, and for magnetic confinement fusion research in general.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{Reconstruction of magnetic configurations in W7-X using artificial neural networks}
+      \field{volume}{58}
+      \field{year}{2018}
+      \field{pages}{056009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/aab22d
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1741-4326/aab22d
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1741-4326/aab22d
+      \endverb
+    \endentry
+    \entry{Chen2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a5b8b2e287cbcd596b1a245e40c69dd9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Francis\bibnamedelima F},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{fullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{bibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorbibnamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authornamehash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \strng{authorfullhash}{a5b8b2e287cbcd596b1a245e40c69dd9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to plasma physics}
+      \field{year}{2012}
+    \endentry
+    \entry{Dinklage2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=14774e14bf0bc18195d2d0827c0ef0a0}{%
+           family={Dinklage},
+           familyi={D\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3527144ba8d59b25987e3d50bb90c53}{%
+           family={Beidler},
+           familyi={B\bibinitperiod},
+           given={CD},
+           giveni={C\bibinitperiod}}}%
+        {{hash=41228255efccefbe33dfcd52056091bb}{%
+           family={Helander},
+           familyi={H\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+        {{hash=14d7092edb0f0cb0ea2bfd8540c4f6f0}{%
+           family={Fuchert},
+           familyi={F\bibinitperiod},
+           given={Golo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5958107d956ff1ab6bdc8f155098c4a6}{%
+           family={Maa{ß}berg},
+           familyi={M\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=62d8c22ace03c3f28a04ce416be4bf2e}{%
+           family={Rahbarnia},
+           familyi={R\bibinitperiod},
+           given={Kian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e784469aaa949171c77cf10c03abf653}{%
+           family={Sunn\bibnamedelima Pedersen},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0a34f5f453f346b003323c64c5002266}{%
+           family={Turkin},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=021e6421201d25be9eee86d28937b13f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={RC},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4e58cb6bc1345ded9441978fc1058074}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{893a77b8dd9507da36c0b3143a6c2c23}
+      \strng{fullhash}{051d2accb532a8658d29802aad73b537}
+      \strng{bibnamehash}{debcc257fa0e1477212fc2ffa35a8ce8}
+      \strng{authorbibnamehash}{debcc257fa0e1477212fc2ffa35a8ce8}
+      \strng{authornamehash}{893a77b8dd9507da36c0b3143a6c2c23}
+      \strng{authorfullhash}{051d2accb532a8658d29802aad73b537}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{8}
+      \field{title}{Magnetic configuration effects on the Wendelstein 7-X stellarator}
+      \field{volume}{14}
+      \field{year}{2018}
+      \field{pages}{855\bibrangedash 860}
+      \range{pages}{6}
+    \endentry
+    \entry{Grieger1992}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=17a3537fae023a99c8251400b6cb686e}{%
+           family={Grieger},
+           familyi={G\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6f7895fc09c6511da6e61090c856c99e}{%
+           family={Lotz},
+           familyi={L\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c9c2c43f7d206b4c1da41b727bc15a22}{%
+           family={Merkel},
+           familyi={M\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=370ce58bde8832ceb42676f1fe05b5dd}{%
+           family={N{ü}hrenberg},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84375d485b65d217333413d22b9144ea}{%
+           family={Sapper},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23f444b4f239da889577dbbb05243bdb}{%
+           family={Strumberger},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0eb0b074c4990b17cb072f507d094da6}{%
+           family={Wobig},
+           familyi={W\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0fe43aebdf022f34b05d6d899103105d}{%
+           family={Burhenn},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3fdb7aa048bcc55d52723e1d2be1c560}{%
+           family={Erckmann},
+           familyi={E\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1ef5f1d4a5a2d3f4ceeec8643fba1d15}{%
+           family={Gasparino},
+           familyi={G\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{beb3e06dce24f1a9b26a5a308e0ef01d}
+      \strng{fullhash}{4e7cdd1dfa2efb2d4d8921f4fb6f7afc}
+      \strng{bibnamehash}{851e0d1bc05cf46f3c7e119be8f2cf20}
+      \strng{authorbibnamehash}{851e0d1bc05cf46f3c7e119be8f2cf20}
+      \strng{authornamehash}{beb3e06dce24f1a9b26a5a308e0ef01d}
+      \strng{authorfullhash}{4e7cdd1dfa2efb2d4d8921f4fb6f7afc}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids B: Plasma Physics}
+      \field{number}{7}
+      \field{title}{Physics optimization of stellarators}
+      \field{volume}{4}
+      \field{year}{1992}
+      \field{pages}{2081\bibrangedash 2091}
+      \range{pages}{11}
+    \endentry
+    \entry{Helander2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=41228255efccefbe33dfcd52056091bb}{%
+           family={Helander},
+           familyi={H\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{fullhash}{41228255efccefbe33dfcd52056091bb}
+      \strng{bibnamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authorbibnamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authornamehash}{41228255efccefbe33dfcd52056091bb}
+      \strng{authorfullhash}{41228255efccefbe33dfcd52056091bb}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reports on Progress in Physics}
+      \field{number}{8}
+      \field{title}{Theory of plasma confinement in non-axisymmetric magnetic fields}
+      \field{volume}{77}
+      \field{year}{2014}
+      \field{pages}{087001}
+      \range{pages}{1}
+    \endentry
+    \entry{Hirshman1986}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=f5c4d0520c559230b03e522e13c802fc}{%
+           family={Hirshman},
+           familyi={H\bibinitperiod},
+           given={SP},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c9c2c43f7d206b4c1da41b727bc15a22}{%
+           family={Merkel},
+           familyi={M\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{fullhash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{bibnamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authorbibnamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authornamehash}{f0f8dd9f77081955e280904d2457295c}
+      \strng{authorfullhash}{f0f8dd9f77081955e280904d2457295c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{number}{1}
+      \field{title}{Three-dimensional free boundary calculations using a spectral Green's function method}
+      \field{volume}{43}
+      \field{year}{1986}
+      \field{pages}{143\bibrangedash 155}
+      \range{pages}{13}
+    \endentry
+    \entry{Hirshman1983}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f7150efa36853338886950a2db1f3eca}{%
+           family={Hirshman},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e35efae85406479849b004dc12135e3a}{%
+           family={Whitson},
+           familyi={W\bibinitperiod},
+           given={JC},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{fullhash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{bibnamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authorbibnamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authornamehash}{67a95ed1a04c567425c704a4825b5551}
+      \strng{authorfullhash}{67a95ed1a04c567425c704a4825b5551}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Physics of fluids}
+      \field{number}{12}
+      \field{title}{Steepest-descent moment method for three-dimensional magnetohydrodynamic equilibria}
+      \field{volume}{26}
+      \field{year}{1983}
+      \field{pages}{3553\bibrangedash 3568}
+      \range{pages}{16}
+    \endentry
+    \entry{Jakubowski2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=723a6575ef0af89501684412081ab6b5}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aeb44af3bf749b10bd413b9eec7652f9}{%
+           family={Drewelow},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2473a56b1fce5387f6ce948b111ef4be}{%
+           family={Fellinger},
+           familyi={F\bibinitperiod},
+           given={Joris},
+           giveni={J\bibinitperiod}}}%
+        {{hash=db7a6eb20589db33fde4585307a833c6}{%
+           family={Puig\bibnamedelima Sitjes},
+           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Aleix},
+           giveni={A\bibinitperiod}}}%
+        {{hash=93e40be52acb30291ebbda8519544750}{%
+           family={Wurden},
+           familyi={W\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9067f367a1d9e40c705af6393eb1014e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d13b644d8a85902f86a16c83519893bd}{%
+           family={Biedermann},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52a1f95bc5e6579aba8e6880d099ed60}{%
+           family={Cannas},
+           familyi={C\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=33125873bb869e7412d7506159629979}{%
+           family={Chauvin},
+           familyi={C\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c5dcebe22683603546969e54fcbb8727}{%
+           family={Gamradt},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{9834b84813cc024404152c39a6d82d8f}
+      \strng{fullhash}{1e90aba27cd674bb9f12390ad679e54e}
+      \strng{bibnamehash}{d950a6262b76f59765b9eb66ff98f25a}
+      \strng{authorbibnamehash}{d950a6262b76f59765b9eb66ff98f25a}
+      \strng{authornamehash}{9834b84813cc024404152c39a6d82d8f}
+      \strng{authorfullhash}{1e90aba27cd674bb9f12390ad679e54e}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{labelprefix}{@}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{LaTeX: Fortgeschrittene Anwendungen}
-      \field{year}{1995}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{number}{10}
+      \field{title}{Infrared imaging systems for wall protection in the W7-X stellarator}
+      \field{volume}{89}
+      \field{year}{2018}
+      \field{pages}{10E116}
+      \range{pages}{-1}
     \endentry
-    \entry{Kohm:2011}{book}{}
-      \name{author}{2}{}{%
-        {{hash=ef6495d81d29fa9940e9d8ca208f831e}{%
-           family={Kohm},
+    \entry{Knieps2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=495dd8ef6066b0bab2191f625e11a9aa}{%
+           family={Knieps},
            familyi={K\bibinitperiod},
-           given={Markus},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49b6497e61b9b89cf46c0f5afc1caf2e}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f69c45bbd7261440e0a1d67b65a73268}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d892dae7e27112db5849b72b39dee5a}{%
+           family={Dinklage},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1af27b3e635e110c5c1f29c146a74e8d}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2292f0436a0fbdbe7741b70204c41689}{%
+           family={Rahbarnia},
+           familyi={R\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6ec856d3125e016c50be18fec19d1831}{%
+           family={Schilling},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=433e65075057ba32ab9f006a97b3496c}{%
+           family={Neuner},
+           familyi={N\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+        {{hash=0c023fb30680c48375d472d1eddc6923}{%
+           family={Thomsen},
+           familyi={T\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=904c8ec54f4bcd455b81d8869cc2aa60}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=3f334cedb5d4e8744d0e2b2f8be538fd}{%
-           family={Jens-Uwe-Morawski},
-           familyi={J\bibinithyphendelim U\bibinithyphendelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{fullhash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{bibnamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authorbibnamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authornamehash}{73a192998d01cef0b6e42c98d2138f17}
-      \strng{authorfullhash}{73a192998d01cef0b6e42c98d2138f17}
-      \field{labelalpha}{KJ11}
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{255acdfdb2fb0c71b1ab3346491cc73d}
+      \strng{fullhash}{bda095d81a84b872d7f94c3717d664c9}
+      \strng{bibnamehash}{e9d5e84b444ef340473fe3409709e47f}
+      \strng{authorbibnamehash}{e9d5e84b444ef340473fe3409709e47f}
+      \strng{authornamehash}{255acdfdb2fb0c71b1ab3346491cc73d}
+      \strng{authorfullhash}{bda095d81a84b872d7f94c3717d664c9}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelprefix}{@}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{KOMA-Script: Die Anleitung}
-      \field{year}{2011}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{2}
+      \field{title}{Plasma beta effects on the edge magnetic field structure and divertor heat loads in Wendelstein 7-X high-performance scenarios}
+      \field{volume}{62}
+      \field{year}{2021}
+      \field{pages}{026011}
+      \range{pages}{1}
     \endentry
-    \entry{WEB:Miede:2011}{online}{}
+    \entry{Moffatt1985}{article}{}
       \name{author}{1}{}{%
-        {{hash=649da87eb5b9d8d2ebdb1d3fbd59d0f1}{%
-           family={Miede},
+        {{hash=620879a8ac85084f3886e217ca5dff19}{%
+           family={Moffatt},
            familyi={M\bibinitperiod},
-           given={Andr{é}},
-           giveni={A\bibinitperiod}}}%
+           given={HK},
+           giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{fullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{bibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorbibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authornamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorfullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \field{extraname}{1}
-      \field{labelalpha}{Mie11}
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{fullhash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{bibnamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authorbibnamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authornamehash}{620879a8ac85084f3886e217ca5dff19}
+      \strng{authorfullhash}{620879a8ac85084f3886e217ca5dff19}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelprefix}{@}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Classic Thesis Style by Andr{é} Miede}
-      \field{urlday}{27}
-      \field{urlmonth}{5}
-      \field{urlyear}{2011}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://www.miede.de/index.php?page=classicthesis
-      \endverb
-      \verb{url}
-      \verb http://www.miede.de/index.php?page=classicthesis
-      \endverb
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Magnetostatic equilibria and analogous Euler flows of arbitrarily complex topology. Part 1. Fundamentals}
+      \field{volume}{159}
+      \field{year}{1985}
+      \field{pages}{359\bibrangedash 378}
+      \range{pages}{20}
     \endentry
-    \entry{Miede:2011}{manual}{}
-      \name{author}{1}{}{%
-        {{hash=649da87eb5b9d8d2ebdb1d3fbd59d0f1}{%
-           family={Miede},
-           familyi={M\bibinitperiod},
-           given={Andr{é}},
-           giveni={A\bibinitperiod}}}%
+    \entry{Niemann2020}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=427abb0e39b47573016be6ca16fd245b}{%
+           family={Niemann},
+           familyi={N\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=146fdd5dfe781a0af9cf8878acab0578}{%
+           family={Drewelow},
+           familyi={D\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aeb9979634fffd95f49f3b3011ecf7ef}{%
+           family={Jakubowski},
+           familyi={J\bibinitperiod},
+           given={MW},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7047e542646bac8f14d676d9112dd171}{%
+           family={Sitjes},
+           familyi={S\bibinitperiod},
+           given={A\bibnamedelima Puig},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fdb2127bd67c12dd9793fcad07b8ac0f}{%
+           family={Cannas},
+           familyi={C\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4531bc045c08b9165192fd733acf2bd5}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=840690dfb7b67ccd9f4dc9d24de10ffb}{%
+           family={Pisano},
+           familyi={P\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d95c8cb45f9fc40fb42144fcc7781733}{%
+           family={K{ö}nig},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0fe43aebdf022f34b05d6d899103105d}{%
+           family={Burhenn},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=efea62e2ce600560127cf49934377dd1}{%
+           family={Hacker},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{fullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{bibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorbibnamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authornamehash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \strng{authorfullhash}{649da87eb5b9d8d2ebdb1d3fbd59d0f1}
-      \field{extraname}{2}
-      \field{labelalpha}{Mie11}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2332bc7e9013be856465e809794f393a}
+      \strng{fullhash}{c1746d6f900718151638bc9d79dd0129}
+      \strng{bibnamehash}{55a802bc9636619a847313b38cf8f738}
+      \strng{authorbibnamehash}{55a802bc9636619a847313b38cf8f738}
+      \strng{authornamehash}{2332bc7e9013be856465e809794f393a}
+      \strng{authorfullhash}{c1746d6f900718151638bc9d79dd0129}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelprefix}{@}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Classic Thesis Style: An Homage to The Elements of Typographic Style}
-      \field{year}{2011}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{8}
+      \field{title}{Large wetted areas of divertor power loads at Wendelstein 7-X}
+      \field{volume}{60}
+      \field{year}{2020}
+      \field{pages}{084003}
+      \range{pages}{1}
+    \endentry
+    \entry{Nuhrenberg1986}{article}{}
+      \name{author}{2}{}{%
+        {{hash=370ce58bde8832ceb42676f1fe05b5dd}{%
+           family={N{ü}hrenberg},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc7f8ed55100ccd3ee81ad05284b88f1}{%
+           family={Zille},
+           familyi={Z\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{fullhash}{c6026f524cecad0983639d106c3960d0}
+      \strng{bibnamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authorbibnamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authornamehash}{c6026f524cecad0983639d106c3960d0}
+      \strng{authorfullhash}{c6026f524cecad0983639d106c3960d0}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Letters A}
+      \field{number}{3}
+      \field{title}{Stable stellarators with medium $\beta$ and aspect ratio}
+      \field{volume}{114}
+      \field{year}{1986}
+      \field{pages}{129\bibrangedash 132}
+      \range{pages}{4}
+    \endentry
+    \entry{Renner2002}{article}{}
+      \name{author}{8}{}{%
+        {{hash=bac182cd38e0e1d1a2336e12a1f2976d}{%
+           family={Renner},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d2dbeafae9e99728fe9c6c8caf97d42b}{%
+           family={Boscary},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1d8b2e178291ce5d53077d33de81634c}{%
+           family={Greuner},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bfd74bbcf954b83f1b554ac4c361f120}{%
+           family={Grote},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=612161289e2b50f2aef98d79b3800b26}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={FW},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7ecb508c4fa7864b943e87680cf37c03}{%
+           family={Kisslinger},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23f444b4f239da889577dbbb05243bdb}{%
+           family={Strumberger},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c7b78a2983b04c44a59e5c4568bb521}{%
+           family={Mendelevitch},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{a1acc1c0342d3b5a749f3ff0ea693c65}
+      \strng{fullhash}{2e5498feff38a42edcd7697daeb0c4c1}
+      \strng{bibnamehash}{4cd56642cf57ed7dba45b2e6866724d0}
+      \strng{authorbibnamehash}{4cd56642cf57ed7dba45b2e6866724d0}
+      \strng{authornamehash}{a1acc1c0342d3b5a749f3ff0ea693c65}
+      \strng{authorfullhash}{2e5498feff38a42edcd7697daeb0c4c1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma physics and controlled fusion}
+      \field{number}{6}
+      \field{title}{Divertor concept for the W7-X stellarator and mode of operation}
+      \field{volume}{44}
+      \field{year}{2002}
+    \endentry
+    \entry{Rummel2012}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=bef0ac0a86ed4de063a343aa9f529ed9}{%
+           family={Rummel},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6c47d401e82e6455f43e308c84e22da0}{%
+           family={Ribe},
+           familyi={R\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6b2163417a03c4bced8833e36a195cc1}{%
+           family={Ehrke},
+           familyi={E\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=42f7ff6ea1400e12b4f5c4c26a307f32}{%
+           family={Rummel},
+           familyi={R\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1b0ea047d940542629b7cab0cd0b9497}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfe9148ce31bdcd2aa072a1f562ddf75}{%
+           family={Monnich},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cad41e99240f3ad2778b8bcc117726ea}{%
+           family={Buscher},
+           familyi={B\bibinitperiod},
+           given={Klaus-Peter},
+           giveni={K\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=bddbcadfec63ca6edb447ec0577ddb6a}{%
+           family={Fietz},
+           familyi={F\bibinitperiod},
+           given={Walter\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4a5e97f789909419f6f481b75ea4919c}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1c608b9a4854527ca482f3cda65d49b}{%
+           family={Neubauer},
+           familyi={N\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{40339592ba0bb81f408b88ba511b27ff}
+      \strng{fullhash}{90aa6bfc18b057fa3efa7e17adcbe1bc}
+      \strng{bibnamehash}{1fecb5172069225ab2beb9f687a12329}
+      \strng{authorbibnamehash}{1fecb5172069225ab2beb9f687a12329}
+      \strng{authornamehash}{40339592ba0bb81f408b88ba511b27ff}
+      \strng{authorfullhash}{90aa6bfc18b057fa3efa7e17adcbe1bc}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Plasma Science}
+      \field{number}{3}
+      \field{title}{The superconducting magnet system of the stellarator Wendelstein 7-X}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{pages}{769\bibrangedash 776}
+      \range{pages}{8}
+    \endentry
+    \entry{Sieglin2015}{article}{}
+      \name{author}{7}{}{%
+        {{hash=76075abe415ac7696cc7e1bfaf33b86b}{%
+           family={Sieglin},
+           familyi={S\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1710598d1fcadd46552b255253005cfd}{%
+           family={Faitsch},
+           familyi={F\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2aae893d6495e4ac552ab58b698d4133}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3fc2be7f11ace09a057fb17b34ba36d}{%
+           family={Brucker},
+           familyi={B\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48bd4c0d927a078662cad678f297f6e5}{%
+           family={Eich},
+           familyi={E\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f70e485d7ed83883ffcf9f3f171d01b4}{%
+           family={Kammerloher},
+           familyi={K\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a0fee3cb49a186aa6a9f29439534bf68}{%
+           family={Martinov},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{137f15a6c3ccc64bdf30fc10e3a932e2}
+      \strng{fullhash}{d62a67bcd312983b78ad4a41d4f9736b}
+      \strng{bibnamehash}{f4075e72ec619e282153ed56b8291ff5}
+      \strng{authorbibnamehash}{f4075e72ec619e282153ed56b8291ff5}
+      \strng{authornamehash}{137f15a6c3ccc64bdf30fc10e3a932e2}
+      \strng{authorfullhash}{d62a67bcd312983b78ad4a41d4f9736b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{number}{11}
+      \field{title}{Real time capable infrared thermography for ASDEX Upgrade}
+      \field{volume}{86}
+      \field{year}{2015}
+      \field{pages}{113502}
+      \range{pages}{1}
+    \endentry
+    \entry{Suzuki2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=49b6497e61b9b89cf46c0f5afc1caf2e}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f69c45bbd7261440e0a1d67b65a73268}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{fullhash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{bibnamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authorbibnamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authornamehash}{01a6a6d73a082b8d16598347620db0cb}
+      \strng{authorfullhash}{01a6a6d73a082b8d16598347620db0cb}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelprefix}{@}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{number}{6}
+      \field{title}{Impact of nonlinear 3D equilibrium response on edge topology and divertor heat load in Wendelstein 7-X}
+      \field{volume}{58}
+      \field{year}{2016}
+      \field{pages}{064004}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection
