@@ -7,7 +7,7 @@
 
 Better understanding the impact of input resolution on the neural network training results is important for optimizing the network. The neural network was trained on inputs of varying resolution. The resolution of the inputs was scaled and the network parameters were scaled accordingly to the inputs, so larger resolution images also had more network parameters.
 
-In table \ref{table:input} the input resolutions and the corresponding number of multiply–accumulate operations (MAC) are presented. MACs are a commonly used metric in machine learning because many of the tensor optimized accelerators compute a*x+b as a single operation [ref: https://developer.nvidia.com/blog/programming-tensor-cores-cuda-9/], therefore one MAC is approximately 2 floating point operations (FLOPS).
+In table \ref{table:input} the input resolutions and the corresponding number of multiply–accumulate operations (MAC) are presented. MACs are a commonly used metric in machine learning because many of the tensor optimized accelerators compute $a \cdot x+b$ as a single operation \cite{nvidia_technical_blog_2022}, therefore one MAC is approximately 2 floating point operations (FLOPS).
 
 \begin{table}
     \begin{tabular}{ |p{3cm}|p{3cm}|p{4cm}|  }
