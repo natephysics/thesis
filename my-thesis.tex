@@ -4,7 +4,7 @@
 \documentclass[%
     paper=A4,               % paper size --> A4 is default in Germany
     twoside=true,           % onesite or twoside printing
-    openright,              % doublepage cleaning ends up right side
+    openany,              % doublepage cleaning ends up right side
     parskip=half,           % spacing value / method for paragraphs
     chapterprefix=true,     % prefix for chapter marks
     11pt,                   % font size
@@ -54,11 +54,9 @@
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
-\cleardoublepage
 
 \pagestyle{plain}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
-\cleardoublepage
 % %
 % \input{content/acknowledgement} % INCLUDE: acknowledgement
 \cleardoublepage
@@ -79,14 +77,13 @@
 %% to add part sections
 %\part{Example Part}
 \input{content/chapter-introduction}   % INCLUDE: introduction
-\input{content/chapter-related-work}
-% INCLUDE: related work
 \input{content/chapter-physics-principles}
 % INCLUDE: physics principles 
+\input{content/chapter-related-work}
+% INCLUDE: related work
 \input{content/chapter-code-design}    % INCLUDE: code design
+\input{content/chapter-data}
 %\part{Additional Example Part}
-\input{content/chapter-system}         % INCLUDE: system
-\input{content/chapter-concepts}
 \input{content/chapter-results}       % INCLUDE: concepts
 \input{content/chapter-conclusion}     % INCLUDE: conclusion
 
@@ -111,14 +108,14 @@
 \listoftables
 \cleardoublepage
 
-\lstlistoflistings
-\cleardoublepage
+% \lstlistoflistings
+% \cleardoublepage
 
-\appendix\cleardoublepage
-\input{content/chapter-appendix}       % INCLUDE: appendix
+% \appendix\cleardoublepage
+% \input{content/chapter-appendix}       % INCLUDE: appendix
 
-\cleardoublepage
-\input{content/colophon}
+% \cleardoublepage
+% \input{content/colophon}
 
 \cleardoublepage
 \input{content/declaration}
