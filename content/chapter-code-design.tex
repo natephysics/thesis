@@ -40,14 +40,14 @@ The inception modules are stacked repeatedly (see fig. \ref{diagram:inceptnet}),
 
 The input network is a 2D convolution used to scale up the number of channels. Since the graph representation of the network is too fine to be clear in this format, the figure \ref{diagram:inceptnet-in} takes a closer look at the input network and the first incept module. The output network flattens the output and passes it though a 128 neuron fully connected layer before reducing it to the output dimension of the network. While this was a reduction in the original scale of the Inceptnet design because the input images are higher resolution there are far more weights per step. For example, with an image resolution of 80\% of the original image size (260x1040 pixels) and a batch size of 10, the amount of ram needed to store the weights for the forward and back propagation step alone is 21.4 GB, which exceeds the video memory of all but the highest end consumer graphics cards. Since one of the questions being addressed by this thesis will be the impact of scaling the input image resolution on the accuracy, it is important to design a model that can will run with the hardware available.
 
-\begin{figure}[htb]
+\begin{figure}
     \centering
     \includegraphics[width=\paperwidth, height=\textheight, keepaspectratio]{images/inceptnet.png}
     \caption{A diagram of the entire inception network as used in this paper.}
     \label{diagram:inceptnet}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}
     \centering
     \includegraphics[width=\paperwidth, height=\textheight, keepaspectratio]{images/graph-input.png}
     \caption{A subsection of \ref{diagram:inceptnet} diagram looking at the input network and the first inception module.}
