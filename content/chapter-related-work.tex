@@ -5,15 +5,21 @@
 
 \section{Prior related work: }
 
-The topic of this thesis was built upon the work of many of colleagues at IPP. The work done by D. Böckenhoff et al. in their 2018 paper \cite{Böckenhoff_2018} laid down the fundemental research that motivated this thesis. They set out to use artificial neural networks to reconstruct $I_B$, the coil current from the $B$-coils (seen in the following diagram \ref{fig:3}), the from heat load in the experiment. Since they used the $\iota$-scan data from the prior OP1.1 experimental campaign, which used a limiter, their work is applied to a very different data set. The limiter that was used in W7X for the OP1.1 campaign is a piece of graphite designed to interface with the plasma to prevent it from interacting with the wall, potentially damaging the wall surface. A divetor plays a similar role to a limiter but in addition to acting as a plasma interface to protect the wall there is a subdivertor space that helps compress neutral gas which helps with the pumping process. Because of this additional function the form of the divertor used in the OP1.2 data is quite different (see figure \ref{fig:limiter-divertor}). As an additional note: the OP2 experiment will include a water cooled divetor, which can impact the heat load recorded by the thermal cameras.
+The topic of this thesis was built upon the work of many of colleagues at IPP. The work done by D. Böckenhoff et al. in their 2018 paper \cite{Böckenhoff_2018} laid down the fundamental research that motivated this thesis. They set out to use artificial neural networks to reconstruct $I_B$, the coil current from the $B$-coils (seen in the following diagram \ref{fig:3}), the from heat load in the experiment. Since they used the $\iota$-scan data from the prior OP1.1 experimental campaign, which used a limiter, their work is applied to a very different data set. The limiter that was used in W7X for the OP1.1 campaign is a piece of graphite designed to interface with the plasma to prevent it from interacting with the wall, potentially damaging the wall surface. A divetor plays a similar role to a limiter but in addition to acting as a plasma interface to protect the wall there is a subdivertor space that helps compress neutral gas which helps with the pumping process. Because of this additional function the form of the divertor used in the OP1.2 data is quite different (see figure \ref{fig:limiter-divertor}). As an additional note: the OP2 experiment will include a water cooled divetor, which can impact the heat load recorded by the thermal cameras.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width = \textwidth]{images/limiter-divetor.png}
-    \caption{Left: Three-dimensional representation of heat flux on the surface of a limiter in W7X. Taken from \cite{Böckenhoff_2018} Right: } \label{fig:limiter-divetor}
+    \caption{Left: Three-dimensional representation of heat flux on the surface of a limiter in W7X. Taken from \cite{Böckenhoff_2018} Right: Labeled image of the OP1.2 divertor and plasma facing components} \label{fig:limiter-divertor}
 \end{figure}
 
-In the paper from D. Böckenhoff et al., data was limited to 6 values of $I_B$ taken from actual experimental data. While they were able to reconstruct $I_B$ using only the real world data with an $rmse$ (root mean squared error) of 0.047 for the test set results when using interpolated and extrapolated data. However, the performance on extrapolated data was notably worse. To improve these results they went a step further and used synthetic data using simulated $\iota$-scan data. A new version of the network was trained explicitly on the synthetic data and the validation set was entirely synthetic as well. The resulting network worked well, however, there was an observed systematic underestimation of $I_B$ of $-0.026 \pm 0.001$.
+In the paper from D. Böckenhoff et al., data was limited to 6 values of $I_B$ taken from actual experimental data. While they were able to reconstruct $I_B$ using only the real world data with an $rmse$ (root mean squared error) of 0.047 for the test set results when using interpolated and extrapolated data. $rmse$ is defined as:
+
+\begin{equation}
+    rmse = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
+\end{equation}
+
+However, the network did not perform as well when applied to extrapolated data. To improve the performance, the authors used synthetic data generated from simulated $\iota$-scan data to train a new version of the network. The validation set was also entirely synthetic. While the new network performed well, there was an observed systematic underestimation of $I_B$ by $-0.026 \pm 0.001$.
 
 The best results came from using the neural network pretrained on synthetic data and trained on the real data set after. The combination yielded the best results, with an $rmse$ of 0.013 and better performance on extrapolated results overall.
 
