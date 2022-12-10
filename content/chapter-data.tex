@@ -1,1 +1,6 @@
+
+\chapter{Data}
+\label{sec:Head Load Data}
+
+
 Since the heat load image data was taken from real experiments, the data set is not uniform in the distribution of $\bar{\iota}$ values. This means the distribution the network is attempting to learn is not uniform, or more explicitly, it's multimodal. This is a common problem in machine learning and is often addressed by using a loss function that is robust to multimodal distributions. The loss function used in this case is the mean squared error (MSE). The MSE is a common loss function for regression problems, but it is not entirely robust to multimodal distributions. This was address by M. Blatzheim et al. \cite{Blatzheim_2018} by using simulated input data that provided a continuos extension to the output distribution.
