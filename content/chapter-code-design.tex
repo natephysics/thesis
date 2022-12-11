@@ -74,6 +74,7 @@ These convolutions are stacked, being applied to the same input to produce multi
 \end{figure}
 
 \label{sec:code:inceptnet}
+\section{Incepnet}
 
 The inceptnet architecture \cite{https://doi.org/10.48550/arxiv.1409.4842} has been demonstrated by D. Böckenhoff et al. \cite{Böckenhoff_2019} to be effective on a simplified version of this problem and by M. Blatzheim et al. \cite{Blatzheim_2019} to be effective on data from the same divertor configuration. In initial tests it was very promising for this application and met an important boundary conditions, mainly the network fit into the available video memory on the system used to train the network. Inceptnet uses a series of sub-networks, known as inception modules (see fig. \ref{fig:code:inceptmodule}). Each inception module is made up of 3 convolutional paths (1x1, 3x3, and 5x5) and a pooling path. To assure the outputs from each path have the same resolution, padding is added to the 3x3 and 5x5 convolutions. The number of each convolutional filter can be adjusted at each step and the outputs are concatenated together. The idea behind having multiple convolution sizes is that some features of the input might be lost if only size of kernel is applied.
 
@@ -112,12 +113,14 @@ The input network is a 2D convolution used to scale up the number of channels. S
 \end{figure}
 
 \label{sec:code:hyperparameters}
+\section{Hyperparameters}
 
 Once the broad architecture was selected the next step is to tune the model. Tuning the model helps model level parameters, like the number of filters at a given module, to be optimized for the use case. Tuning was done systematically with Optuna \cite{optuna} and results were recorded and compared using Tensorboard \cite{tensorboard} and MLFlow \cite{mlflow}.
 
 The labels of the data set are the expected values the network will output given a specific input. $\iota$, the rotational transform or the ratio of poloidal transits per toroidal turn of any field line on a flux surface, is the label used for training. Initially, the labels for the data set were not available since simulations were necessary to produce them and that process is computationally expensive. Instead, simplified versions of the labels which just took into account the sum of $I_A$ and $I_B$, which provides a good first order approximation. Naturally, this will neglect the plasmas induced changes to the magnetic field. Simulations using VMEC allowed for a more accurate approximation for $\iota$. However, it is prohibitively computationally intensive to run 22,000+ simulations using extender, a simulation tool necessary for extending the results from VMEC to regions outside of the plasma and the field line tracer, a tool used for tracking field lines from the area outside of the plasma to the internal PFCs. The compromise is to use a value of $\iota$ at the edge of the plasma, as the VMEC simulations can be made much faster alone.
 
 \label{sec:code:philosophy}
+\section{Design Philosophy}
 The design philosophy of this project was important. The code was designed to be a complete package, to be easily used by fellow colleges, and to work with the state of the art tools available in the machine learning space. PyTorch \cite{pytorch} was used at the primary framework, as many of members of the NEISS group used this as well. The PyTorch Lightning \cite{pytorch_lightning} package provided a powerful way to design an object-oriented machine learning package. For lower-level operations, like managing and recording the network configuration files, hyperparmeter searches, as well as structuring and analyzing results, the package Hydra \cite{hydra}, developed by Facebook, was used. Git \cite{git} was used for the version control system and DVC \cite{dvc} for data version control. This project was profiled and optimized with help from the PyTorch Lightning profiler. Code comments and documentation have been developed to help with quick adoption of the code for future use.
 
 Since future changes to the divertor surface will result in drastically different inputs to the network, the code was designed to automatically scale with the inputs. The design philosophy was focused on making a project that could be quickly and easily taken over by a future student and be powerful and flexible enough to work with expected changes in the future. Reguardless of whether or not the code will never used again it is still a valuable lesson in Python software development and MLops. All of the code is available on GitHub at the following link:
