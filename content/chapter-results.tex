@@ -70,7 +70,7 @@ where $n$ is the number of data points, $h$ is the bandwidth of the kernel, and 
     K(x) = \frac{1}{\sqrt{2 \pi}} e^{-\frac{x^2}{2}}
 \end{equation}
 
-Since values below zero are irrelevant to L2 error, the distributions are truncated at zero. The KDE is calculated for each network and then the KDE is normalized to the entire dataset. The KDE is then plotted as a violin plot, which is a box plot with the kernel density estimate plotted as a density function. The KDE is plotted as a density function because it is not a probability distribution. The two networks that exhibit best performance can be seen to have higher q-factors than the other networks.
+The KDE is calculated for each network and then the KDE is normalized to the entire dataset. The KDE is then plotted as a violin plot, which is a box plot with the kernel density estimate plotted as a density function. The KDE is plotted as a density function because it is not a probability distribution. To more clearly see the scale of the error the x-axis is logarithmic.
 
 \begin{figure}[!htb]
     \centering
@@ -78,3 +78,10 @@ Since values below zero are irrelevant to L2 error, the distributions are trunca
     \caption{Kernel density estimate of L2 error from each trained neural network on the test datasets.} \label{fig:kde}
 \end{figure}
 
+In addition to the KDE plot, a strip plot to show the distribution of the L2 error is shown in figure \ref{fig:strip}. The strip plot is a plot of the L2 error for each data point. The KDE plot is a good way to visualize the distribution of the error, but it is not a good way to visualize the individual error values. The strip plot is a good way to visualize the individual error values, but it is not a good way to visualize the distribution of the error. The KDE plot and the strip plot are shown together to get a better understanding of the error distribution.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = \textwidth]{images/strip_plot.png}
+    \caption{Strip plot of L2 error from each trained neural network on the test datasets.} \label{fig:strip}
+\end{figure}
